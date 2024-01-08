@@ -1,0 +1,16 @@
+
+.carousel-container{
+    margin-top: 0.5%;
+}
+.carousel .carousel-item { 
+    height: 450px;
+    width: 98%;
+    margin-left: 1%;
+  }
+  
+  .carousel-item img {  
+      object-fit: cover;
+      min-height: 250px;
+      width: 100%;     
+     
+  }
