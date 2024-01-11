@@ -4,9 +4,9 @@
 }
 
 .notification-bar {
-    height: 45%;
+    height: 40%;
     width: 100%;
-    background-color: #2a431c;
+    background-color: #003366;
     color: #EEEE;
     display: flex;
     align-items: center;
@@ -17,8 +17,8 @@
 .menu-list {
     height: 55%;
     width: 100%;
-    background-color: #3a6423;
-    display: flex;
+    background-image: linear-gradient(to right, #20A4F3,#182B3A);
+     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #3a6423;
+    /* background-color: #00ab41; */
+    background-image: linear-gradient(to right, #20A4F3);
     font-size: 2rem;
     padding-left: 3%;
     font-weight: bold;
@@ -105,7 +106,7 @@ ul{
      .nav-links.active {
         width: 100%;
         left: 0%; 
-        z-index: 1;
+        z-index: 2;
         position: absolute;
         padding-left: 0%;
     } 
@@ -113,7 +114,7 @@ ul{
     .nav-links li {
         height: 23%;
         width: 100%;
-        background-color: black;
+    background-image: linear-gradient(to right, #20A4F3,#182B3A);
         border-top: 1px solid #fff;
         display: flex;
         flex-direction: column;
@@ -126,6 +127,10 @@ ul{
         cursor: pointer;
         color: aliceblue;
         margin-right: 3%;
+    }
+    .menu-list{
+        display: flex;
+        padding-right: 5%;
     }
     
 }

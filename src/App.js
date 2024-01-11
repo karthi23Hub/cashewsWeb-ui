@@ -7,6 +7,7 @@ import Product from './modules/Product';
 import Services from './modules/Services';
 import About from './modules/About';
 import Contact from './modules/Contact';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/contact' element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
 
     </div>

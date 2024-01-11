@@ -20,7 +20,7 @@ const NavBar = () => {
             </div>
             <div className="menu-list">
                 <Link className="logo-container" to="/">
-                    RajEverGreen
+                    CashewNut
                 </Link>
                 <div className="menu-icon">
                     {open ? <FiX onClick={onClickClose} /> : <FiMenu onClick={onClickOpen} />}
