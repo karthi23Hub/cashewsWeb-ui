@@ -38,7 +38,7 @@ const Home = () => {
             <div className="card-container">
                 <Container  className="card-grid-container ">
                     <Row className="card-row-container-1">
-                        <Col xs={12} sm={6} md={3} className="card-col" >
+                        <Col xs={6} sm={6} md={3} className="card-col" >
                             <Card >
                                 <Card.Img variant="top" src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -51,7 +51,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={6} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top" src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -64,7 +64,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={6} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top" src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -77,7 +77,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={6} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top"    src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -92,7 +92,7 @@ const Home = () => {
                         </Col>
                     </Row>
                     <Row className="card-row-container-2 ">
-                        <Col xs={12} md={3} className="card-col" >
+                        <Col xs={6} sm={6} md={3} className="card-col" >
                         <Card >
                                 <Card.Img variant="top"    src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -105,7 +105,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top"    src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -118,7 +118,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top"    src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>
@@ -131,7 +131,7 @@ const Home = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} md={3} className="card-col">
+                        <Col xs={6} sm={6} md={3} className="card-col">
                         <Card >
                                 <Card.Img variant="top"    src={require('../imag/cashew-nuts-wallpaper-image6.jpg')} />
                                 <Card.Body>

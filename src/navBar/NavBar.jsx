@@ -16,7 +16,7 @@ const NavBar = () => {
     return (
         <div className="nav-bar-container">
             <div className="notification-bar">
-                Welcome to Raj Ever Green
+                Welcome to Pantruti Cashews
             </div>
             <div className="menu-list">
                 <Link className="logo-container" to="/">
