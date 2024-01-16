@@ -4,8 +4,52 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Carousel from "react-multi-carousel";
+import 'react-multi-carousel/lib/styles.css';
+import { gradeData1, responsive,gradeData2} from "./GradeData";
+import { WholesGradeCard,PiecesGradeCard } from "./CashewGradeCard";
+import Tables from "../commones/table/Tables";
+import { cashewWholesGrade } from "../commones/table/TableData";
+
+
+
+
 
 const Product = () => {
+
+    const card1 = gradeData1.map((item) => {
+        return (
+            <WholesGradeCard 
+            path={item.imagePath}
+            name={item.name}
+            description={item.description}
+            />
+        )
+
+    })
+
+    const card2 = gradeData2.map((item) => {
+        return (
+            <PiecesGradeCard 
+            path={item.imagePath}
+            name={item.name}
+            description={item.description}
+            />
+        )
+
+    })
+
+    const allGrateType = cashewWholesGrade.map((item)=> {
+       return(
+          <Tables 
+              g1Name={item.grades1}
+              g1Type={item.types1}
+              g2Name={item.grades2}
+              g2Type={item.types2}
+          />
+       )
+    })
+
     return (
         <div className="product-container">
             <div className="product-h2-image-container">
@@ -38,11 +82,23 @@ const Product = () => {
                             </p>
                         </Col>
                     </Row>
-                </Container>          
+                </Container>
             </div>
-            <div>
-                
+            <div className="grade-details">
+                <Container > {allGrateType} </Container>              
             </div>
+            <div className="wholes-grade-cards">
+                <Container fluid>
+                    <h1>Wholes Grade</h1>
+                    <Carousel  responsive={responsive} >{card1}</Carousel>
+                </Container>
+            </div>
+            <div className="wholes-grade-cards">
+                <Container fluid>
+                    <h1>Pieces Grade</h1>
+                    <Carousel  responsive={responsive} >{card2}</Carousel>
+                </Container>
+            </div>          
         </div>
     )
 }
