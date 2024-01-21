@@ -1,3 +1,4 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react"
 
  function WholesGradeCard (props){
@@ -7,8 +8,12 @@ import React from "react"
         display:"flex",
         flexDirection:"column",
         boxSizing:"border-box",
-      };
+        transition:"all 0.3s",
+        // backgroundColor: isHover ? 'lightblue' : 'rgb(0, 191, 255)',
+        // color: isHover ? 'red' : 'green',
 
+      };
+     
       const mystyle = {
         height:"10vh",
         width:"100%",
@@ -21,7 +26,7 @@ import React from "react"
       };
       
     return (        
-            <div  style={card}>
+            <div  style={card} >
                 {props.path}
                 <h4 style={mystyle}>{props.name}</h4>
             </div>        

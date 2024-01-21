@@ -28,7 +28,7 @@ const NavBar = () => {
                 <ul className={open ? "nav-links active" : "nav-links"}>
                     <li ><Link onClick={onClickClose} className="nav-link" to='/home'>Home</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to={'/Product'}>Product</Link></li>
-                    <li ><Link onClick={onClickClose} className="nav-link" to={'/services'}>Services</Link></li>
+                    <li ><Link onClick={onClickClose} className="nav-link" to={'/process'}>Process</Link></li>
                     <li><Link onClick={onClickClose} className="nav-link" to={'/about'}>About Us</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to={'/contact'}>Contact</Link></li>
                 </ul>
