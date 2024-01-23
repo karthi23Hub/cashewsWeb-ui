@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 const Footer = () =>{
     return(
-        <div className="footer-container">
+        <div  id="footer-container">
            <div className="footer-grid-container">
                 <Container>
                     <Row className="row1-container">

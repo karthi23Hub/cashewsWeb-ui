@@ -9,7 +9,7 @@ import  Col  from "react-bootstrap/Col";
 
 const Process = () =>{
     return(
-        <div>
+        <div id="process">
             <Container fluid >
                 <Row>
                     <Col xs={12}>

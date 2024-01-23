@@ -8,10 +8,10 @@ import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 import { gradeData1, responsive, gradeData2 } from "./GradeData";
 import { WholesGradeCard, PiecesGradeCard } from "./CashewGradeCard";
-import { Tables, WhiteWholes, ScorchedWholes, DesertWholes, ScorchedPieces } from "../commones/table/Tables";
-import { cashewGrade, whiteWholesGrade, scrochedWholesGrade, desertWholes, scorchedPieces } from "../commones/table/TableData";
-import { WhitePieces, DessertPieces } from "../commones/table/Tables";
-import { whitePieces, dessertPieces } from "../commones/table/TableData";
+import { Tables, WhiteWholes, ScorchedWholes, DesertWholes, ScorchedPieces } from "../common/table/Tables";
+import { cashewGrade, whiteWholesGrade, scrochedWholesGrade, desertWholes, scorchedPieces } from "../common/table/TableData";
+import { WhitePieces, DessertPieces } from "../common/table/Tables";
+import { whitePieces, dessertPieces } from "../common/table/TableData";
 
 const containerStyle = {
     display: "flex",
@@ -142,7 +142,7 @@ const Product = () => {
 
 
     return (
-        <div className="product-container">
+        <div className="product-container" id="#">
             <div className="product-h2-image-container">
                 <Container fluid>
                     <Row>

@@ -6,11 +6,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CarouselItem } from "react-bootstrap";
 
 const Home = () => {
     return (
-        <div className="carousel-container">
+        <div className="carousel-container" id="/">
             <Carousel fade>
                 <Carousel.Item interval={1500}>
                     <img src={require('../imag/CG-Process/cashew-nut-bgi4.jpg')} alt="cashew-nut-image" />
