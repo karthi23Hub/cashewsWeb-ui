@@ -1,27 +1,39 @@
 .nav-bar-container {
     height: 14vh;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    overflow-x: hidden;
+    z-index: 3;
 }
 
 .notification-bar {
     height: 40%;
     width: 100%;
-    background-color: #003366;
-    color: #ee0808ee;
+    background-color: #000000;
+    color: rgb(246, 117, 5);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;    
 }
 
 
 .menu-list {
     height: 55%;
     width: 100%;
-    background-image: linear-gradient(to right, #20A4F3,#182B3A);
-     display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 0.5px solid #000000;
+    box-shadow: 3px rgb(79, 79, 79);
+    position: sticky;
+    top: 0px;
+    /* overflow-x: hidden; */
+    background-color: #fff;
 }
 
 .logo-container {
@@ -31,13 +43,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* background-color: #00ab41; */
-    background-image: linear-gradient(to right, #20A4F3);
     font-size: 2rem;
     padding-left: 3%;
     font-weight: bold;
-    color: #ffff;
     text-decoration: none;
+    color: green;
 
 }
 
@@ -49,7 +59,6 @@
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    font-weight: bold;
     margin-right: 1%;
 }
 ul{
@@ -58,7 +67,7 @@ ul{
 
 .nav-link {
     text-decoration: none;
-    color: #ffff;
+    /* color: #ffff; */
 
 }
 
@@ -114,7 +123,7 @@ ul{
     .nav-links li {
         height: 23%;
         width: 100%;
-    background-image: linear-gradient(to right, #20A4F3,#182B3A);
+    /* background-image: linear-gradient(to right, #20A4F3,#182B3A); */
         border-top: 1px solid #fff;
         display: flex;
         flex-direction: column;
