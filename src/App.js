@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navBar/NavBar';
 import Home from './modules/Home';
 import Product from './modules/Product';
-import Process from './modules/Process';
+// import Process from './modules/Process';
 import About from './modules/About';
 import Contact from './modules/Contact';
 import Footer from './footer/Footer';
@@ -15,7 +15,7 @@ function App() {
       <NavBar/>
       <Home/>
       <Product/>
-      <Process/>
+      {/* <Process/> */}
       <About/>
       <Contact/>
       <Footer/>

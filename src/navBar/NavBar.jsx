@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react';
-import  {Link} from "react-scroll";
+import { Link } from "react-scroll";
 import { FiMenu, FiX } from "react-icons/fi";
 import './NavBar.css';
 
@@ -17,7 +17,9 @@ const NavBar = () => {
     return (
         <div className="nav-bar-container">
             <div className="notification-bar">
-                Welcome to Pantruti Cashews
+                <span>Contact:+9159116690</span>
+                <span>lWelcome to karthi Cashews</span>
+                <span>E-mail:karthikeyanarumugam23@gmail.com</span>
             </div>
             <div className="menu-list">
                 <Link className="logo-container" to="/" spy={true} smooth={true} offset={-100} duration={500}>
@@ -29,7 +31,7 @@ const NavBar = () => {
                 <ul className={open ? "nav-links active" : "nav-links"}>
                     <li ><Link onClick={onClickClose} className="nav-link" to='/' spy={true} smooth={true} offset={-100} duration={500}>Home</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to='#' spy={true} smooth={true} offset={-100} duration={500}>Product</Link></li>
-                    <li ><Link onClick={onClickClose} className="nav-link" to='process' spy={true} smooth={true} offset={-100} duration={500}>Process</Link></li>
+                    {/* <li ><Link onClick={onClickClose} className="nav-link" to='process' spy={true} smooth={true} offset={-100} duration={500}>Process</Link></li> */}
                     <li><Link onClick={onClickClose} className="nav-link" to='about us' spy={true} smooth={true} offset={-100} duration={500}>About Us</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to='contact' spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
                 </ul>

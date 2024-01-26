@@ -8,16 +8,15 @@
 }
 
 .notification-bar {
-    height: 40%;
+    height: 2rem;
     width: 100%;
     background-color: #000000;
-    color: rgb(246, 117, 5);
+    color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: monospace;
-    font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 
 
@@ -28,11 +27,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 0.5px solid #000000;
+    border-bottom: 0.1px solid #000000;
     box-shadow: 3px rgb(79, 79, 79);
     position: sticky;
     top: 0px;
-    /* overflow-x: hidden; */
     background-color: #fff;
 }
 
@@ -82,11 +80,9 @@ ul {
     height: 7.8vh;
     width: 10rem;
     cursor: pointer;
-    color: rgb(246, 117, 5);
-    background-color: #000000;
-    border-bottom: 1px solid rgb(250, 9, 9);
+    color: #f07705;
+    background: #000000;
 }
-
 .menu-icon {
     display: none;
     font-size: 2rem;
@@ -134,7 +130,6 @@ ul {
     .nav-links li {
         height: 23%;
         width: 100%;
-        /* background-image: linear-gradient(to right, #20A4F3,#182B3A); */
         border-top: 1px solid #fff;
         display: flex;
         flex-direction: column;
