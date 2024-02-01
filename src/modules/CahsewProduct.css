@@ -1,0 +1,60 @@
+#cardStyle {
+    transition: all 0.3s;
+    background-color: bisque;
+    border: transparent;
+
+}
+
+#cardStyle:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+    box-shadow: -1px 6px 19px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+    transition: .8s;
+
+}
+
+#textContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#product {
+    color: #000000;
+    background-color: bisque;
+
+}
+
+#descTextStyle {
+    margin-bottom: 0.5rem;
+}
+
+#priceTextStyle {
+    margin: 0rem 0rem 0.7rem 0rem;
+    font-weight: bold;
+}
+
+#buttonStyle {
+    height: 2.5rem;
+    width: 15.7rem;
+    color: #000000;
+    font-weight: bold;
+    background-color: darkorange;
+    border-radius: 0px;
+    box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+
+}
+
+#buttonStyle:hover {
+    /* background-color:darkblue; */
+    background-image: linear-gradient(to right, #c0392b,#8e44ad);
+    color: #ffff;
+}
+
+.animate__zoomIn {
+    margin: 1rem 0px 0rem 0px;
+    box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+
+}

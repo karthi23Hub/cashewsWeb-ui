@@ -2,8 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './navBar/NavBar';
 import Home from './modules/Home';
-import Product from './modules/Product';
-// import Process from './modules/Process';
+import CashewProduct from './modules/CashewProduct';
 import About from './modules/About';
 import Contact from './modules/Contact';
 import Footer from './footer/Footer';
@@ -14,8 +13,8 @@ function App() {
     <div className="App">
       <NavBar/>
       <Home/>
-      <Product/>
-      {/* <Process/> */}
+      {/* <Product/> */}
+      <CashewProduct/>
       <About/>
       <Contact/>
       <Footer/>
