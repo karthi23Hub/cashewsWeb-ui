@@ -1,0 +1,43 @@
+#popUp-modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 5, 5, 0.589);
+    z-index: 1;
+    position: fixed;
+    top: 0%; 
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    pointer-events: all;
+}
+.popUp-modal-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.2rem;
+    pointer-events: all;
+}
+
+.title-message-container{
+    height: 3rem;
+    width: 65%;
+    background-color: peru;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-message-container{
+    height: 30rem;
+    width: 65%;
+    background-color:#ffff;
+    color: #000000;
+}

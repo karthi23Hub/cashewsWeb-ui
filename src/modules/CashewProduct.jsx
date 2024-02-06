@@ -1,10 +1,43 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './CahsewProduct.css';
 import ProductData from "../common/productData/Data";
-import  Button  from "@mui/material/Button";
-
+import Button from "@mui/material/Button";
+import ProductDetailsPopUp from "./ProductDetailsPopUp";
+import PopUpModal from "../common/popUpModal/PopUpMadal";
+import { useState } from "react";
+import gradeData1 from './GradeData';
 
 const CashewProduct = () => {
+    let [buyNowPopUp, setBuyNowPopUp] = useState(false);
+    let [getgradeDetails, setGetGradeDetails] = useState([]);
+    let [showgradeData, setShowGradeData] = useState([]);
+
+    let onClickOpen = (selectedItem) => {
+        let data;
+        getgradeDetails.forEach((grade) => {
+            if (grade.id === selectedItem.id) {
+                data = grade;
+            }
+        })
+        setShowGradeData(data);
+        setBuyNowPopUp(true);
+    }
+
+    let onClickClose = () => {
+        setBuyNowPopUp(false);
+    }
+
+    useEffect(() => {
+        if (gradeData1) {
+            setGetGradeDetails(gradeData1)
+            getData(gradeData1)
+        }
+    }, [])
+
+    let getData = (datas) => {
+        let data = {}
+        datas.push(data)
+    }
 
     const cardItem = (item) => {
         return (
@@ -14,7 +47,9 @@ const CashewProduct = () => {
                     <h3 class="card-title">{item.title}</h3>
                     <p id="descTextStyle">Description:{item.desc}</p>
                     <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p>
-                    <Button className="animate__zoomIn" id="buttonStyle" style={{animationDuration:"2s"}} key={item.id}>Buy Now</Button>
+                    <Button className="animate__zoomIn" id="buttonStyle"
+                        style={{ animationDuration: "2s" }}
+                        key={item.id} onClick={() => onClickOpen(item)} >Buy Now</Button>
                 </div>
             </div>
         );
@@ -35,6 +70,11 @@ const CashewProduct = () => {
                 <div className="row justify-content-around">
                     {ProductData.map(cardItem)}
                 </div>
+            </div>
+            <div>
+                {buyNowPopUp && <PopUpModal >
+                    <ProductDetailsPopUp onClose={onClickClose} showDatas={showgradeData} />
+                </PopUpModal>}
             </div>
         </div>
     )
