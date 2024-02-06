@@ -2,6 +2,7 @@
   "name": "raj-ever-green",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://karthi23hub.github.io/cashewsWeb-ui/",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -12,10 +13,12 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.1",
     "icons": "^1.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
     "react-icons": "^4.12.0",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.1",
@@ -28,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
