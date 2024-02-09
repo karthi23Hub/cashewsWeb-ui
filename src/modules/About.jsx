@@ -18,7 +18,7 @@ const About = () => {
                     <div className="row">
                        
                         <div className="col-md-6 my-2">
-                            <div className="py-5 my-5 px-2">
+                            <div className="py-5 my-5 px-2"> 
                                 <h2>About Karthi Export</h2>
                                 <p>Karthi Exports is a bankable name that can be trusted for processing retail and massive product requirements in a professional manner.
                                     We started our company operations as an exporter, supplier, and importer of
