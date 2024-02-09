@@ -1,7 +1,5 @@
-.carousel-container {
-    padding: 1rem;
-    height: 85vh;
-    /* background-color:  rgb(59 130 246 / .5); */
+.home-container {
+    height: 92vh;
     background-image: url('../common/imag/CG-Process/cashew-nut-bgi4.jpg');
     object-fit: cover;
     background-repeat: no-repeat;
@@ -9,6 +7,7 @@
     display: flex;
     align-items: center;
     padding-left: 5%;
+    background-color: #0fc9e1;
 }
 
 
