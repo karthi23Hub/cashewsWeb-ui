@@ -21,7 +21,7 @@ export const responsive = {
 };
 
 const imageStyle = {
-    width: "200px",
+    width: "300px",
     marginLeft: "30px"
 
 }
@@ -31,8 +31,8 @@ const imageStyle = {
     {
         id: 0,
         imagePath: <img src={require('../common/imag/CG-Process/cashew-nut-bgi1.jpg')} style={imageStyle} />,
-        name: '300',
-        description: 'this model size'
+        name: 'ww180',
+        description: 'white wholes 180'
     },
     {
         id: 1,
@@ -47,67 +47,67 @@ const imageStyle = {
         description: 'this model size'
     },
     {
-        id: 4,
+        id: 3,
         // imagePath: <img src={require('../imag/wholes-grade/a320.png')} style={imageStyle} />,
         name: 'WW320',
         description: 'this model size'
     },
     {
-        id: 5,
+        id: 4,
         // imagePath: <img src={require('../imag/wholes-grade/asw.png')} style={imageStyle} />,
         name: 'B',
         description: 'this model size'
     },
     {
-        id: 6,
+        id: 5,
         // imagePath: <img src={require('../imag/wholes-grade/dw.png')} style={imageStyle} />,
         name: 'Dw',
         description: 'this model size'
     },
     {
-        id: 7,
+        id: 6,
         // imagePath: <img src={require('../imag/wholes-grade/ssw.png')} style={imageStyle} />,
         name: 'SSW',
         description: 'this model size'
     },
     {
-        id: 8,
+        id: 7,
         // imagePath: <img src={require('../imag/wholes-grade/sw.png')} style={imageStyle} />,
         name: 'SW',
         description: 'this model size'
     },
     {
-        id: 9,
+        id: 8,
         // imagePath: <img src={require('../imag/wholes-grade/w150.png')} style={imageStyle} />,
         name: 'W150',
         description: 'this model size'
     },
     {
-        id: 10,
+        id: 9,
         // imagePath: <img src={require('../imag/wholes-grade/w180.png')} style={imageStyle} />,
         name: 'W180',
         description: 'this model size'
     },
     {
-        id: 11,
+        id: 10,
         // imagePath: <img src={require('../imag/wholes-grade/w240.png')} style={imageStyle} />,
         name: 'W240',
         description: 'this model size'
     },
     {
-        id: 12,
+        id: 11,
         // imagePath: <img src={require('../imag/wholes-grade/w320.png')} style={imageStyle} />,
         name: 'W320',
         description: 'this model size'
     },
     {
-        id: 13,
+        id: 12,
         // imagePath: <img src={require('../imag/wholes-grade/w400.png')} style={imageStyle} />,
         name: 'W400',
         description: 'this model size'
     },
     {
-        id: 14,
+        id: 13,
         // imagePath: <img src={require('../imag/wholes-grade/ww.png')} style={imageStyle} />,
         name: 'WW',
         description: 'this model size'
