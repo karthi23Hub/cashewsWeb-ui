@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import './PopUpModal.css';
 import ReactDOM from "react-dom";
+import { Fab } from "@mui/material";
+import  Close  from "@mui/icons-material/Close";
+
 
 const PopUpModal = (props) => {
 
@@ -19,7 +22,9 @@ const PopUpModal = (props) => {
             <div className="popUp-modal-container">
                 <div className="title-message-container">
                     karthi
-                    <button onClick={handClick}>close Button</button>
+                    <Fab  size="medium" variant="extended" aria-label="close" onClick={handClick} color="error">
+                     <Close sx={{mr:0.5}}></Close>close
+                </Fab>  
                 </div>
                 <div className="content-message-container">
                     {props.children}
