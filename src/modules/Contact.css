@@ -1,0 +1,19 @@
+.contactPage-image{
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#contactUs-content{
+    text-align: start;
+    padding-left: 4rem;
+}
+
+#contactUs-content div{
+   margin-bottom: 0.5rem;
+}
+
+#contactUs-content div{
+   padding-bottom: 0.5rem;
+}

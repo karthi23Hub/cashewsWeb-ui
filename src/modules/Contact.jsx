@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css';
 
 const Contact = () => {
     return (
@@ -7,35 +8,42 @@ const Contact = () => {
                 <div className="container mb-5">
                     <div className="row">
                         <div className="col-12 text-center py-4 my-4">
-                            <h1>Have Some Question?</h1>
+                            <h1>Our Contact</h1>
                             <hr />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md 5 d-flex justify-content-center">
-                            <img src="/assets/images/contact.png" alt="Contact Us" height="300px" width="300px" />
+                            <img src={require('../common/imag/CG-Process/cashewBowl.jpg')} alt="Contact Us" className="contactPage-image"/>
                         </div>
-                        <div className="col-md-6">
-                            <form >
-                                <div class="mb-3">
-                                    <label for="exampleForm" class="form-label">Full Name</label>
-                                    <input type="text" class="form-control" id="exampleForm" placeholder="John Smith" />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-outline-primary">Send Message</button>
-                            </form>
+                        <div className="col-md-6 my-2" id="contactUs-content">
+                            <div>
+                                <h5>Contact Person:</h5>
+                                <label>karthikeyan.A</label>
+                            </div>
+                            <div>
+                            <h5>Address:</h5>
+                           <p>
+                             678, Easte Street MutharasanKuppam,Sathipattu(po),<br/> Panruti, Cuddalore(tk), Tamil Nadu 607106.
+                           </p>
+                            </div>
+                            <div>
+                                <h5>Contact:</h5>
+                                <label>+9159116690</label>
+                            </div>
+                            <div>
+                                <h5>Email:</h5>
+                                <label>karthikeyanarumugam@gmail.com</label>
+                            </div> 
+                            <div>
+                                <h5>Our Time:</h5>
+                                <label>Mon-Sat:09:AM-09-00PM</label><br/>
+                                <label>Sun:Available</label>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            )
         </div>
     )
 }
