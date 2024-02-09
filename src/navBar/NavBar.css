@@ -1,25 +1,17 @@
 .nav-bar-container {
-    height: 14vh;
+    height: 8.3vh;
     width: 100%;
     position: sticky;
     top: 0px;
     overflow-x: hidden;
     z-index: 3;
-}
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #ffa500;
 
-.notification-bar {
-    height: 2.3rem;
-    width: 100%;
-    background-color: #000000;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
-
 
 .menu-list {
-    height: 55%;
+    height: 60px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -28,7 +20,7 @@
     box-shadow:-1px 2px 2.5px rgba(0,0,0,.15), 0 0 14px rgba(0,0,0,.02), 0 0 1px rgba(0,0,0,.1) ;
     position: sticky;
     top: 0px;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .logo-container {
@@ -42,7 +34,7 @@
     padding-left: 3%;
     font-weight: bold;
     text-decoration: none;
-    color: green;
+    color: #ffd700;
 
 }
 
@@ -71,15 +63,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffff;
 }
 
 .nav-link:hover {
-    height: 7.8vh;
+    height: 7.7vh;
     width: 10rem;
     cursor: pointer;
     color: #f07705;
     background: #000000;
-    box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+    /* box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1); */
 }
 .menu-icon {
     display: none;
