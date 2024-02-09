@@ -49,7 +49,7 @@ const CashewProduct = () => {
                     <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p>
                     <Button className="animate__zoomIn" id="buttonStyle"
                         style={{ animationDuration: "2s" }}
-                        key={item.id} onClick={() => onClickOpen(item)} >Buy Now</Button>
+                        key={item.id} onClick={() => onClickOpen(item)} >More Details</Button>
                 </div>
             </div>
         );
@@ -61,7 +61,7 @@ const CashewProduct = () => {
             <div className="container py-3">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h1> Cashew Nut Product</h1>
+                        <h1> Our Product</h1>
                         <hr />
                     </div>
                 </div>
