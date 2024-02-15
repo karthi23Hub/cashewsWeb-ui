@@ -1,16 +1,47 @@
 .home-container {
-    height: 92vh;
-    background-image: url('../common/imag/CG-Process/cashew-nut-bgi4.jpg');
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
-    padding-left: 5%;
-    background-color: #0fc9e1;
+  
 }
-
-
+.carousel-images{
+    height:auto;
+    width: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+.homeImage-style{
+    height: 550px;
+    max-width: 630px;
+    object-fit: cover;
+    background-repeat: repeat;
+}
+.homeText-content-col{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeImage-content-col2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .animate__backInDown {
     width: 100%;
     max-width: 100%;
@@ -19,6 +50,7 @@
     animation-duration: 2s;
     font-size: clamp(0.6rem, 1rem + 5vw, 5rem);
     font-family: sans-serif;
+    letter-spacing: 5px;
 }
 
 .animate__backInLeft {
@@ -32,25 +64,48 @@
 
 .animate__backInUp {
     height: 6vh;
-    min-width: 30%;
+    min-width: 25%;
     margin-left: 10px;
-    border: none;
+    border: 1px solid #ffd700;
     outline: none;
-    background: linear-gradient(to bottom right, #0fc9e1 20%, #e4ca0a);
+    background: transparent;
     color: #000000;
+    background-color: #ffffff7f;
     font-weight: 700;
     padding: 0 2px;
     font-size: clamp(0.6rem, 1rem + 5vw, 1.3rem);
     transition: 0.1s linear;
-    margin-top: 1rem;
 }
 
 .animate__backInUp:hover {
-    box-shadow: 0 0 10px #b7b9c3;
-    color: #f74f10;
-    /* background: linear-gradient(to bottom right, #8a3313, #f74f10 40%, ); */
+    box-shadow: 2px  2px #d3d009;
+    color: #ffff;
+    background-color: #00000051;
 }
 
+@media only screen and (max-width:320px){
+    .home-container {
+        padding: 0%;
+    }
+    .homeImage-style{
+        height: 280px;
+        max-width: 310px;
+        object-fit: cover;
+        background-repeat: repeat;
+        box-sizing: border-box;
+     
+    }
+ 
+}
 
+@media screen and (min-width:320px) {
+    .homeImage-style{
+        height: 280px;
+        max-width: 310px;
+        object-fit: cover;
+        background-repeat: repeat;
+        box-sizing: border-box;
+       
+    }
+}
 
-/*  */
