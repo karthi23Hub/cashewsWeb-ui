@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/cashewsWeb-ui/static/css/main.0e2ff227.css",
-    "main.js": "/cashewsWeb-ui/static/js/main.9fc59480.js",
-    "static/js/787.e468035e.chunk.js": "/cashewsWeb-ui/static/js/787.e468035e.chunk.js",
-    "static/media/cashew-nut-bgi4.jpg": "/cashewsWeb-ui/static/media/cashew-nut-bgi4.7f2a784c962100f7b67a.jpg",
+    "main.css": "/cashewsWeb-ui/static/css/main.3a680d67.css",
+    "main.js": "/cashewsWeb-ui/static/js/main.cbf35fa0.js",
+    "static/js/787.c7636217.chunk.js": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js",
+    "static/media/cashew-details.jpeg": "/cashewsWeb-ui/static/media/cashew-details.90893e58d607023ae03e.jpeg",
+    "static/media/cashewBowl.jpg": "/cashewsWeb-ui/static/media/cashewBowl.641b0583974a6474b063.jpg",
     "static/media/cashew-nut-bgi1.jpg": "/cashewsWeb-ui/static/media/cashew-nut-bgi1.fa52c3aee31b6b6225a9.jpg",
+    "static/media/Cashew-Apple.2.jpg": "/cashewsWeb-ui/static/media/Cashew-Apple.2.db2c7bc32b9621743945.jpg",
+    "static/media/Cashew-Apple2.jpg": "/cashewsWeb-ui/static/media/Cashew-Apple2.b218567d44c804c60196.jpg",
+    "static/media/Cashew-Apple1.jpg": "/cashewsWeb-ui/static/media/Cashew-Apple1.8f916ac8b369eb529634.jpg",
     "static/media/ww450-jpeg-500x500.webp": "/cashewsWeb-ui/static/media/ww450-jpeg-500x500.3178cba5d256520abff0.webp",
+    "static/media/smiling-businessmen.webp": "/cashewsWeb-ui/static/media/smiling-businessmen.8046461876f216317ae8.webp",
     "static/media/w240-whole-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/w240-whole-cashew-nut-500x500.542d315ed3229d2f1552.webp",
     "static/media/w210-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/w210-cashew-nut-500x500.a8d4f7c9e3e04d82543f.webp",
     "static/media/sw180-500x500.webp": "/cashewsWeb-ui/static/media/sw180-500x500.24d4753a35a7fc566234.webp",
@@ -14,12 +19,12 @@
     "static/media/sw240-whole-cashew-nuts-500x500.webp": "/cashewsWeb-ui/static/media/sw240-whole-cashew-nuts-500x500.97848e3e1814cd0d12e3.webp",
     "static/media/sw210-plain-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/sw210-plain-cashew-nut-500x500.47066a084a2c6b9039ff.webp",
     "index.html": "/cashewsWeb-ui/index.html",
-    "main.0e2ff227.css.map": "/cashewsWeb-ui/static/css/main.0e2ff227.css.map",
-    "main.9fc59480.js.map": "/cashewsWeb-ui/static/js/main.9fc59480.js.map",
-    "787.e468035e.chunk.js.map": "/cashewsWeb-ui/static/js/787.e468035e.chunk.js.map"
+    "main.3a680d67.css.map": "/cashewsWeb-ui/static/css/main.3a680d67.css.map",
+    "main.cbf35fa0.js.map": "/cashewsWeb-ui/static/js/main.cbf35fa0.js.map",
+    "787.c7636217.chunk.js.map": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e2ff227.css",
-    "static/js/main.9fc59480.js"
+    "static/css/main.3a680d67.css",
+    "static/js/main.cbf35fa0.js"
   ]
 }
