@@ -1,0 +1,69 @@
+.pdPopUp-container {
+    height: 100%;
+    width: 100%;
+
+}
+
+.pdPopUp-col1 {
+    height: 33.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+
+}
+
+.pdPopUp-col2 {
+    height: 33.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.cgImage-Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cgImage {
+    width: 400px;
+}
+
+.col1-card {
+    width: 400px;
+}
+
+@media screen and (max-width:320px) {
+
+    .pdPopUp-col1 {
+        height: auto;
+    }
+
+    .cgImage {
+        width: 100%;
+        height: 140px;
+    }
+
+    .col1-card {
+        width: 310px;
+        margin-top: 2px;
+    }
+
+    .pdPopUp-col2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0.5% 2% 2%;
+    }
+
+}
