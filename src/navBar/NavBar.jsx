@@ -16,11 +16,6 @@ const NavBar = () => {
     }
     return (
         <div className="nav-bar-container">
-            {/* <div className="notification-bar">
-                <span>Contact:+9159116690</span>
-                <span>Welcome to karthi Cashews</span>
-                <span>E-mail:karthikeyanarumugam23@gmail.com</span>
-            </div> */}
             <div className="menu-list">
                 <Link className="logo-container" to="/" spy={true} smooth={true} offset={-100} duration={500}>
                     CashewNut
@@ -28,14 +23,12 @@ const NavBar = () => {
                 <div className="menu-icon">
                     {open ? <FiX onClick={onClickClose} /> : <FiMenu onClick={onClickOpen} />}
                 </div>
-                <ul className={open ? "nav-links active" : "nav-links"}>
+                <ul className={open ? "nav-links-active" : "nav-links"}>
                     <li ><Link onClick={onClickClose} className="nav-link" to='/' spy={true} smooth={true} offset={-100} duration={500}>Home</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to='product' spy={true} smooth={true} offset={-60} duration={500}>Product</Link></li>
-                    {/* <li ><Link onClick={onClickClose} className="nav-link" to='process' spy={true} smooth={true} offset={-100} duration={500}>Process</Link></li> */}
                     <li><Link onClick={onClickClose} className="nav-link" to='about-us' spy={true} smooth={true} offset={-60} duration={500}>About Us</Link></li>
                     <li ><Link onClick={onClickClose} className="nav-link" to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link></li>
                 </ul>
-
             </div>
         </div>
     )
