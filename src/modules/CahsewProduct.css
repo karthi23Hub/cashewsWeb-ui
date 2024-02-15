@@ -46,9 +46,8 @@
     box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
 
 }
-
+ 
 #buttonStyle:hover {
-    /* background-color:darkblue; */
     background-image: linear-gradient(to right, #c0392b,#8e44ad);
     color: #ffff;
 }
