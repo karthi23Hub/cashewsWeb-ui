@@ -33,7 +33,7 @@ const PopUpModal = (props) => {
                 </Fab>  
                 </div>
                 <div className="content-message-container">
-                    {props.children}
+                    {/* {props.children} */}
                 </div>
             </div>
         </div>, document.getElementById('portal'))
