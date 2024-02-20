@@ -1,7 +1,6 @@
-.contactPage-image{
-    height: 400px;
-    width: 600px;
+.img-fluid{ 
     object-fit: cover;
+    object-position: center;
     background-repeat: no-repeat;
 }
 

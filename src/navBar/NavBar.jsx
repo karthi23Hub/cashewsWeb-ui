@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className="nav-bar-container">
             <div className="menu-list">
                 <Link className="logo-container" to="/" spy={true} smooth={true} offset={-100} duration={500}>
-                    CashewNut
+                    Raj Eever Green Exports
                 </Link>
                 <div className="menu-icon">
                     {open ? <FiX onClick={onClickClose} /> : <FiMenu onClick={onClickOpen} />}

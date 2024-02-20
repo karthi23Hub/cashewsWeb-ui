@@ -7,7 +7,7 @@ import  Close  from "@mui/icons-material/Close";
 
 
 const buttonStyle = {
-    borderRadius:"0px 40px"
+    borderRadius:"40px 0px"
 }
 
 
@@ -33,7 +33,7 @@ const PopUpModal = (props) => {
                 </Fab>  
                 </div>
                 <div className="content-message-container">
-                    {/* {props.children} */}
+                    {props.children}
                 </div>
             </div>
         </div>, document.getElementById('portal'))

@@ -5,9 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
-import CardMedia from "@mui/material/CardMedia";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
+
+
 
 
 
@@ -18,14 +17,9 @@ const ProductDetailsPopUp = (props) => {
       <Row style={{ boxSizing: "border-box" }}>
         <Col className="pdPopUp-col1" >
           <div className="cgImage-Container">
-            <Card sx={{ maxWidth: 340 }} className="col1-card">
-              <CardActionArea>
-                <CardMedia
-                  className="cgImage"
-                  component="img"
-                  image={require('../common/imag/cashew-details.jpeg')}
-                  alt="green iguana"
-                />
+            <Card  className="col1-card" >
+              <CardActionArea style={{display:"flex",justifyContent:"center"}} >
+                <img src={require('../common/imag/New folder/cashew-nut-bgi14.jpg')}  className="img-fluid"/>
               </CardActionArea>
             </Card>
           </div>
@@ -35,7 +29,7 @@ const ProductDetailsPopUp = (props) => {
             WHITE WHOLES 180
           </h4>
           <p style={{ margin: "0rem" }}>
-            WW-180 cashews are the most sought after and highest quality because they have not been damaged or split.
+           {details.gradeName} cashews are the most sought after and highest quality because they have not been damaged or split.
           </p>
           <h5 style={{ margin: "0.3rem 0rem 0.3rem 0rem", color: "blue" }}>
             PRODUCT DETAILS:

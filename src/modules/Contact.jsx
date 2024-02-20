@@ -14,12 +14,12 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-md 5 d-flex justify-content-center">
-                            <img src={require('../common/imag/CG-Process/cashewBowl.jpg')} alt="Contact Us" className="contactPage-image"/>
+                            <img src={require('../common/imag/New folder/cashew-nuts-wallpaper-image3.jpg')} alt="Contact Us" className="img-fluid"/>
                         </div>
                         <div className="col-md-6 my-2" id="contactUs-content">
                             <div>
                                 <h5>Contact Person:</h5>
-                                <label>karthikeyan.A</label>
+                                <label>SthiyaRaj.T</label>
                             </div>
                             <div>
                             <h5>Address:</h5>
@@ -33,7 +33,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h5>Email:</h5>
-                                <label>karthikeyanarumugam@gmail.com</label>
+                                <label>rajevergreenexports@gmail.com</label>
                             </div> 
                             <div>
                                 <h5>Our Time:</h5>

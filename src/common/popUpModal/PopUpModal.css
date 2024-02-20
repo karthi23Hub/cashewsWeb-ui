@@ -13,15 +13,6 @@
     color: #ffff;
     pointer-events: all;
 }
-.popUp-modal-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3.7rem;
-    pointer-events: all;
-}
 
 .title-message-container{
     height: 3rem;
@@ -34,6 +25,16 @@
     align-items: center;
     justify-content: space-between;
     padding: 0rem 2rem 0rem 2rem;
+} 
+
+.popUp-modal-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.7rem;
+    pointer-events: all;
 }
 
 .content-message-container{
@@ -45,7 +46,7 @@
 }
 
 @media screen and (max-width:320px) {
-
+  
     .title-message-container{
         height: 3rem;
         width: 98%;
@@ -58,14 +59,36 @@
 }
 
 @media screen and (min-width:320px) and (max-width:425px) {
-
+    #popUp-modal{
+     
+        z-index: 3;
+    }
     .title-message-container{
         height: 3rem;
-        width: 98%;
+        width: 75%;
+        background-color: #e47709;
+        color: #000000;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .popUp-modal-container{
+     position: absolute;
+     top: 0%;
+     height: 100%;
+    }
+    
+    .title-message-container{
+        height: 3rem;
+        width: 95%;
     }
     .content-message-container{
-        height: 33rem;
-        width: 98%;
+        height: 44rem;
+        width: 95%;
+        background-color: #ecdddd;
     }
     
 }
