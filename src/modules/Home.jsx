@@ -18,7 +18,7 @@ const Home = () => {
                     />
                     <Carousel.Caption>
                         <h5 className="animate__backInDown">RajEverGreen Exports</h5>
-                        <p className="animate__backInLeft">  We are providing best qualitywith affordable price</p>
+                        <p className="animate__backInLeft">  We are providing best quality with affordable price</p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
                         </button>
@@ -32,7 +32,7 @@ const Home = () => {
                     />
                     <Carousel.Caption>
                         <h5 className="animate__backInDown">RajEverGreen Exports</h5>
-                        <p className="animate__backInLeft">  We are providing best qualitywith affordable price</p>
+                        <p className="animate__backInLeft">  We are providing best quality with affordable price</p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
                         </button>
@@ -63,7 +63,7 @@ const Home = () => {
                     <Carousel.Caption>
                         <h5 className="animate__backInDown">RajEverGreen Exports</h5>
                         <p className="animate__backInLeft">
-                            We are providing best qualitywith affordable price
+                            We are providing best quality with affordable price
                         </p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
@@ -79,7 +79,7 @@ const Home = () => {
                     <Carousel.Caption>
                         <h5 className="animate__backInDown">RajEverGreen Exports</h5>
                         <p className="animate__backInLeft">
-                            We are providing best qualitywith affordable price
+                            We are providing best quality with affordable price
                         </p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
