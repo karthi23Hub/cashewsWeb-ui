@@ -19,7 +19,7 @@ const Contact = () => {
                         <div className="col-md-6 my-2" id="contactUs-content">
                             <div>
                                 <h5>Contact Person:</h5>
-                                <label>SthiyaRaj.T</label>
+                                <label>Karthikeyan.A</label>
                             </div>
                             <div>
                             <h5>Address:</h5>
@@ -33,7 +33,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h5>Email:</h5>
-                                <label>rajevergreenexports@gmail.com</label>
+                                <label>karthiexports@gmail.com</label>
                             </div> 
                             <div>
                                 <h5>Our Time:</h5>

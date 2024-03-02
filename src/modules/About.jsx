@@ -22,7 +22,7 @@ const About = () => {
 
                         <div className="col-md-6 my-2">
                             <div className="py-5 my-5 px-2">
-                                <h2>About Raj Ever Green Export</h2>
+                                <h2>About Karthi Export</h2>
                                 <p>Karthi Exports is a bankable name that can be trusted for processing retail and massive product requirements in a professional manner.
                                     We started our company operations as an exporter, supplier, and importer of
                                     Basmati Rice, Non Basmati Rice, Wheat Seeds, Dry Fruits, Fresh Vegetables, Indian Spices, Edible Oil, Peanut Kernels, Medical Products,

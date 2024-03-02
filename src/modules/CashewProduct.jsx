@@ -11,7 +11,17 @@ const CashewProduct = () => {
     let [buyNowPopUp, setBuyNowPopUp] = useState(false);
     let [getgradeDetails, setGetGradeDetails] = useState([]);
     let [showgradeData, setShowGradeData] = useState([]);
+    let [whiteWholes,setWhiteWholes] = useState();
 
+    let  whiteWholesDetails =()=>{
+        let details = ProductData;
+        let detail={};
+        for(let i=details; i<=5; i++){
+             detail.push(i)
+        }
+        setWhiteWholes()
+    }
+    console.log(detail);
     let onClickOpen = (selectedItem) => {
         let data;
         getgradeDetails.forEach((grade) => {
@@ -33,7 +43,7 @@ const CashewProduct = () => {
             getData(gradeData1)
         }
     }, [])
-
+    
     let getData = (datas) => {
         let data = {}
         datas.push(data)
@@ -49,7 +59,7 @@ const CashewProduct = () => {
                     <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p>
                     <Button className="animate__zoomIn" id="buttonStyle"
                         style={{ animationDuration: "2s" }}
-                        key={item.id} onClick={() => onClickOpen(item)} >More Details</Button>
+                        key={item.id} onClick={() => onClickOpen(item)} >View Details</Button>
                 </div>
             </div>
         );
@@ -65,6 +75,9 @@ const CashewProduct = () => {
                         <hr />
                     </div>
                 </div>
+            </div>
+            <div style={{height:60, backgroundColor:"black"}}>
+                <button >White Wholes</button>
             </div>
             <div className="container">
                 <div className="row justify-content-around">

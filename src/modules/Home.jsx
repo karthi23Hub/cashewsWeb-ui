@@ -17,7 +17,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 className="animate__backInDown">RajEverGreen Exports</h5>
+                        <h5 className="animate__backInDown">Karthi Exports</h5>
                         <p className="animate__backInLeft">  We are providing best quality with affordable price</p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
@@ -31,7 +31,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 className="animate__backInDown">RajEverGreen Exports</h5>
+                        <h5 className="animate__backInDown">Karthi Exports</h5>
                         <p className="animate__backInLeft">  We are providing best quality with affordable price</p>
                         <button type="button" class="btn btn-outline-dark btn-lg">
                             <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
@@ -45,7 +45,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 className="animate__backInDown">RajEverGreen Exports</h5>
+                        <h5 className="animate__backInDown">Karthi Exports</h5>
                         <p className="animate__backInLeft">
                             We are providing bestqualitywith affor dable price
                         </p>
@@ -61,7 +61,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 className="animate__backInDown">RajEverGreen Exports</h5>
+                        <h5 className="animate__backInDown">Karthi Exports</h5>
                         <p className="animate__backInLeft">
                             We are providing best quality with affordable price
                         </p>
@@ -77,7 +77,7 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 className="animate__backInDown">RajEverGreen Exports</h5>
+                        <h5 className="animate__backInDown">Karthi Exports</h5>
                         <p className="animate__backInLeft">
                             We are providing best quality with affordable price
                         </p>

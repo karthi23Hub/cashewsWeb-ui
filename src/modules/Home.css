@@ -47,16 +47,18 @@
 .animate__backInDown {
     width: 100%;
     max-width: 100%;
-    color:#006400;
+    color:#ffff;
     font-weight: bold;
     animation-duration: 2s;
     font-size: clamp(0.6rem, 1rem + 5vw, 5rem);
     font-family: sans-serif;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .animate__backInLeft {
     width: auto;
-    color:darkgreen;
+    color:#ffff;
+    text-shadow: 1px 1px 1px #000000;
     font-weight: bold;
     animation-duration: 2s;
     font-size: clamp(0.6rem, 1rem + 4vw, 18px);
@@ -121,6 +123,16 @@
     .animate__backInLeft{
         font-size: clamp(0.6rem, 1rem + 4vw, 8px);
     }
+    .btn-outline-dark{
+       height: 2rem;
+       padding: 0px 20px 0px 20px;
+       border: none;
+       background-color: #000000;
+       border-radius: 40px 0px;
+       color: #ffff;
+       box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+
+    }
 }
 @media  screen and (min-width:425px) and (max-width:500px){
     .home-container {
@@ -132,6 +144,9 @@
     .carousel-caption{
         padding-bottom: 0.3rem;
     }
+    .btn-outline-dark{
+        height: 2rem;
+     }
     .animate__backInDown{
         font-size: clamp(0.6rem, 1rem + 5vw, 2.5rem);
     }
