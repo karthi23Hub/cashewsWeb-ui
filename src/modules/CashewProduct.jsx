@@ -11,17 +11,7 @@ const CashewProduct = () => {
     let [buyNowPopUp, setBuyNowPopUp] = useState(false);
     let [getgradeDetails, setGetGradeDetails] = useState([]);
     let [showgradeData, setShowGradeData] = useState([]);
-    let [whiteWholes,setWhiteWholes] = useState();
-
-    let  whiteWholesDetails =()=>{
-        let details = ProductData;
-        let detail={};
-        for(let i=details; i<=5; i++){
-             detail.push(i)
-        }
-        setWhiteWholes()
-    }
-    console.log(detail);
+   
     let onClickOpen = (selectedItem) => {
         let data;
         getgradeDetails.forEach((grade) => {
@@ -75,9 +65,6 @@ const CashewProduct = () => {
                         <hr />
                     </div>
                 </div>
-            </div>
-            <div style={{height:60, backgroundColor:"black"}}>
-                <button >White Wholes</button>
             </div>
             <div className="container">
                 <div className="row justify-content-around">
