@@ -1,7 +1,7 @@
 const ProductData = [
     {
         id: 0,
-        categry:"WW",
+        category:"WW",
         title: "WW-180",
         price: 700,
         desc: "White Wholes",
@@ -9,7 +9,7 @@ const ProductData = [
     },
     {
         id: 1,
-        categry:"WW",
+        category:"WW",
         title: "WW-210",
         price: 700,
         desc: "White Wholes",
@@ -17,7 +17,7 @@ const ProductData = [
     },
     {
         id: 2,
-        categry:"WW",
+        category:"WW",
         title: "WW-240",
         price: 700,
         desc: "White Wholes",
@@ -25,7 +25,7 @@ const ProductData = [
     },
     {
         id: 3,
-        categry:"WW",
+        category:"WW",
         title: "WW-320",
         price: 700,
         desc: "White Wholes",
@@ -33,7 +33,7 @@ const ProductData = [
     },
     {
         id: 4,
-        categry:"WW",
+        category:"WW",
         title: "WW-450",
         price: 700,
         desc: "best quality",
@@ -41,7 +41,7 @@ const ProductData = [
     },
     {
         id: 5,
-        categry:"WW",
+        category:"WW",
         title: "WW-500",
         price: 700,
         desc: "White Wholes",
@@ -49,7 +49,7 @@ const ProductData = [
     },
     {
         id: 6,
-        categry:"SW",
+        category:"SW",
         title: "SW-180",
         price: 700,
         desc: "Scroched Wholes",
@@ -57,7 +57,7 @@ const ProductData = [
     },
     {
         id: 7,
-        categry:"SW",
+        category:"SW",
         title: "SW-210",
         price: 700,
         desc: "Scroched Wholes",
@@ -65,7 +65,7 @@ const ProductData = [
     },
     {
         id: 8,
-        categry:"SW",
+        category:"SW",
         title: "SW-240",
         price: 700,
         desc: "Scroched Wholes",
@@ -73,7 +73,7 @@ const ProductData = [
     },
     {
         id: 9,
-        categry:"SW",
+        category:"SW",
         title: "SW-320",
         price: 700,
         desc: "Scroched Wholes",
@@ -81,7 +81,7 @@ const ProductData = [
     },
     {
         id: 10,
-        categry:"SW",
+        category:"SW",
         title: "SW-450",
         price: 700,
         desc: "Scroched Wholes",
@@ -89,7 +89,7 @@ const ProductData = [
     },
     {
         id: 11,
-        categry:"SW",   
+        category:"SW",   
         title: "SW-500",
         price: 700,
         desc: "Scroched Wholes",
