@@ -11,7 +11,19 @@ const CashewProduct = () => {
     let [buyNowPopUp, setBuyNowPopUp] = useState(false);
     let [getgradeDetails, setGetGradeDetails] = useState([]);
     let [showgradeData, setShowGradeData] = useState([]);
-   
+    let [filterData, setFilterData] = useState(ProductData);
+
+    let onClickFilterAll = () => {
+        setFilterData(ProductData.filter(data => data));
+    };
+    let onClickFilterWW = () => {
+        setFilterData(ProductData.filter(data => data.category === "WW"));
+    };
+    let onClickFilterSW = () => {
+        setFilterData(ProductData.filter(data => data.category === "SW"));
+    };
+
+       
     let onClickOpen = (selectedItem) => {
         let data;
         getgradeDetails.forEach((grade) => {
@@ -33,11 +45,13 @@ const CashewProduct = () => {
             getData(gradeData1)
         }
     }, [])
-    
+
     let getData = (datas) => {
         let data = {}
         datas.push(data)
     }
+
+
 
     const cardItem = (item) => {
         return (
@@ -60,6 +74,12 @@ const CashewProduct = () => {
         <div id="product">
             <div className="container py-3">
                 <div className="row">
+                    <div className="col-6">
+                        <button onClick={onClickFilterAll}>All-Grades</button>
+                        <button onClick={onClickFilterWW} >WW-Grades</button>
+                        <button onClick={onClickFilterSW}>SW-Grades</button>
+                        <button>G3</button>
+                    </div>
                     <div className="col-12 text-center">
                         <h1> Our Product</h1>
                         <hr />
@@ -68,7 +88,7 @@ const CashewProduct = () => {
             </div>
             <div className="container">
                 <div className="row justify-content-around">
-                    {ProductData.map(cardItem)}
+                    {filterData.map(cardItem)}
                 </div>
             </div>
             <div>
