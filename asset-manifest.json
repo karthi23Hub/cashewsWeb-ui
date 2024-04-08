@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/cashewsWeb-ui/static/css/main.f0b1a58b.css",
-    "main.js": "/cashewsWeb-ui/static/js/main.035dfc86.js",
+    "main.css": "/cashewsWeb-ui/static/css/main.6be4d96a.css",
+    "main.js": "/cashewsWeb-ui/static/js/main.8cd26e0e.js",
     "static/js/787.c7636217.chunk.js": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js",
+    "static/media/1347727.png": "/cashewsWeb-ui/static/media/1347727.cf923b564c4d6c00f4eb.png",
+    "static/media/banner2.png": "/cashewsWeb-ui/static/media/banner2.f3a0443d9e56d8b45265.png",
     "static/media/cashew-nut-bgi14.jpg": "/cashewsWeb-ui/static/media/cashew-nut-bgi14.b13b5d8e4b81ca4b7c71.jpg",
-    "static/media/carousel4.jpg": "/cashewsWeb-ui/static/media/carousel4.50ca9949f6f5f90e6c73.jpg",
-    "static/media/carousel1.jpg": "/cashewsWeb-ui/static/media/carousel1.682628dbed49fce547f0.jpg",
-    "static/media/carousel3.jpg": "/cashewsWeb-ui/static/media/carousel3.f00fa91a285137e366e0.jpg",
-    "static/media/carousel2.jpg": "/cashewsWeb-ui/static/media/carousel2.a2adff0e8bcd2b503a7c.jpg",
-    "static/media/carousel5.jpg": "/cashewsWeb-ui/static/media/carousel5.90827542ba4f52612418.jpg",
     "static/media/ww450-jpeg-500x500.webp": "/cashewsWeb-ui/static/media/ww450-jpeg-500x500.3178cba5d256520abff0.webp",
     "static/media/cashew-nuts-wallpaper-image3.jpg": "/cashewsWeb-ui/static/media/cashew-nuts-wallpaper-image3.c92973b66e0381e91693.jpg",
     "static/media/smiling-businessmen.webp": "/cashewsWeb-ui/static/media/smiling-businessmen.8046461876f216317ae8.webp",
@@ -20,12 +17,12 @@
     "static/media/sw240-whole-cashew-nuts-500x500.webp": "/cashewsWeb-ui/static/media/sw240-whole-cashew-nuts-500x500.97848e3e1814cd0d12e3.webp",
     "static/media/sw210-plain-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/sw210-plain-cashew-nut-500x500.47066a084a2c6b9039ff.webp",
     "index.html": "/cashewsWeb-ui/index.html",
-    "main.f0b1a58b.css.map": "/cashewsWeb-ui/static/css/main.f0b1a58b.css.map",
-    "main.035dfc86.js.map": "/cashewsWeb-ui/static/js/main.035dfc86.js.map",
+    "main.6be4d96a.css.map": "/cashewsWeb-ui/static/css/main.6be4d96a.css.map",
+    "main.8cd26e0e.js.map": "/cashewsWeb-ui/static/js/main.8cd26e0e.js.map",
     "787.c7636217.chunk.js.map": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0b1a58b.css",
-    "static/js/main.035dfc86.js"
+    "static/css/main.6be4d96a.css",
+    "static/js/main.8cd26e0e.js"
   ]
 }
