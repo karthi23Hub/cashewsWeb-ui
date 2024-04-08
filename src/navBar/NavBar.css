@@ -5,7 +5,6 @@
     top: 0px;
     z-index: 3;
     box-sizing: border-box;
-    border-bottom: 0.5px solid #ffa500;
 }
 
 .menu-list {
@@ -36,7 +35,7 @@
     cursor: pointer;
 }
 .logo-container:hover{
-    color: #ff8c00;
+    color: #ffe600;
 }
 
 .nav-links {
@@ -75,7 +74,7 @@ ul {
     height: 7.7vh;
     width: 10rem;
     cursor: pointer;
-    color: #f07705;
+    color: #ffe600;
     background: #000000;
 }
 
@@ -110,12 +109,10 @@ ul {
         height: 80%;
         width: 20rem;
         cursor: pointer;
-        color: #f07705;
+        color:  #ffe600;;
         background: #000000;
         margin: 1rem;
-        border-top:  1px solid green;
-        border-radius: 40px 40px ;
-        box-shadow: -1px 1px 1px  rgba(230, 4, 4, 0.838), 0 0 14px rgba(0, 0, 0, 0.778), 0 0 1px rgba(0, 0, 0, .1);
+        
     }
     
     .nav-links-active{
@@ -132,12 +129,37 @@ ul {
         padding: 0%;
         list-style: none;
         background-color: #000000;
-        border: 1px solid #f07705;
     }
 } 
 
-@media screen and (min-width:1024px) {
+@media only screen and (max-width:320px){
+    .logo-container{
+        font-size: 3.7vh;
+       
+    }
+}
+@media only screen and (min-width:321px){
+    .logo-container{
+        font-size: 4vh;
+    }
+}
+@media only screen and (min-width:768px){
+    .logo-container{
+        font-size: 5.7vh;
+    }
+}
+ @media screen and (min-width:1024px) {
+    .nav-bar-container{
+        height: 8.5vh;
+    }
+    .menu-list{
+        height: 8.5vh;
+    }
+    .logo-container{
+        font-size: 5vh;
+    }
     .nav-link{
         display: flex;
     }
-}
+   
+} 
