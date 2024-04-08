@@ -6,12 +6,14 @@ import ProductDetailsPopUp from "./ProductDetailsPopUp";
 import PopUpModal from "../common/popUpModal/PopUpMadal";
 import { useState } from "react";
 import gradeData1 from './GradeData';
-import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
-import MenuItem from "@mui/material/MenuItem";
+// import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
+// import MenuItem from "@mui/material/MenuItem";
 import { styled, alpha } from "@mui/material/styles";
 import Menu from "@mui/material/Menu";
-// import Aos from "aos";
-// import 'aos/dist/aos'
+
+
+
+
 
 
 
@@ -114,18 +116,18 @@ const CashewProduct = () => {
 
     const cardItem = (item) => {
         return (
-            <div class="card my-4" key={item.id} style={{ width: "17.4rem" }} id="cardStyle"
+            <div class="card col-3"  key={item.id} id="card-style"
                 data-aos="zoom-in"
                 data-aos-delay="50"
                 data-aos-offset="200"
                 data-aos-duration="5000"
             >
                 {item.img}
-                <div class="card-body text-center" id="textContainer">
+                <div class="card-body text-center">
                     <h3 class="card-title">{item.title}</h3>
                     {/* <p id="descTextStyle">Description:{item.desc}</p> */}
                     {/* <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p> */}
-                    <Button className="animate__zoomIn" id="buttonStyle"
+                     <Button className="animate__zoomIn" id="buttonStyle"
                         style={{ animationDuration: "2s" }}
                         key={item.id} onClick={() => onClickOpen(item)} >View Details</Button>
                 </div>
@@ -199,9 +201,9 @@ const CashewProduct = () => {
                     </div>
                 </div>
             </div>
-            <div className="container" id="card-container">
-                <div className="row justify-content-around">
-                    {filterData.map(cardItem)}
+            <div className="container " id="card-container" >
+                <div className="row">
+                        {filterData.map(cardItem)}
                 </div>
             </div>
             <div>
