@@ -14,7 +14,10 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-md 5 d-flex justify-content-center">
-                            <img src={require('../common/imag/New folder/cashew-nuts-wallpaper-image3.jpg')} alt="Contact Us" className="img-fluid"/>
+                            <img src={require('../common/imag/New folder/cashew-nuts-wallpaper-image3.jpg')} 
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            alt="Contact Us" className="img-fluid"/>
                         </div>
                         <div className="col-md-6 my-2" id="contactUs-content">
                             <div>
