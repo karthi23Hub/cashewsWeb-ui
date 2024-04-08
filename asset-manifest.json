@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cashewsWeb-ui/static/css/main.6be4d96a.css",
+    "main.css": "/cashewsWeb-ui/static/css/main.befea435.css",
     "main.js": "/cashewsWeb-ui/static/js/main.8cd26e0e.js",
     "static/js/787.c7636217.chunk.js": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js",
     "static/media/1347727.png": "/cashewsWeb-ui/static/media/1347727.cf923b564c4d6c00f4eb.png",
@@ -17,12 +17,12 @@
     "static/media/sw240-whole-cashew-nuts-500x500.webp": "/cashewsWeb-ui/static/media/sw240-whole-cashew-nuts-500x500.97848e3e1814cd0d12e3.webp",
     "static/media/sw210-plain-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/sw210-plain-cashew-nut-500x500.47066a084a2c6b9039ff.webp",
     "index.html": "/cashewsWeb-ui/index.html",
-    "main.6be4d96a.css.map": "/cashewsWeb-ui/static/css/main.6be4d96a.css.map",
+    "main.befea435.css.map": "/cashewsWeb-ui/static/css/main.befea435.css.map",
     "main.8cd26e0e.js.map": "/cashewsWeb-ui/static/js/main.8cd26e0e.js.map",
     "787.c7636217.chunk.js.map": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be4d96a.css",
+    "static/css/main.befea435.css",
     "static/js/main.8cd26e0e.js"
   ]
 }
