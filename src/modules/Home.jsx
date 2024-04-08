@@ -101,8 +101,8 @@ useEffect(()=>{
                     If you intrest to buy cilck bellow contact us button and more details watch more
                 </p> 
                 <div className="button-container" >
-                   <button className="contact-button" data-aos-delay="80"  data-aos-duration="2500">Contact Us</button>
-                   <button className="watch-more-button"  data-aos-delay="80"  data-aos-duration="2500">Watch More</button>
+                   <button className="contact-button" data-aos="flip-up" data-aos-delay="80"  data-aos-duration="2500">Contact Us</button>
+                   <button className="watch-more-button" data-aos="flip-up" data-aos-delay="80"  data-aos-duration="2500">Watch More</button>
                 </div>
             </div>
             <div className="png-image-container">
