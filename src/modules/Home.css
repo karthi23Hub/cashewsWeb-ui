@@ -1,156 +1,373 @@
 .home-container {
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('../common/imag/CarouselImages/1347727.png');
     background-position: center;
-    display: flex;
-    align-items: center;
-  
-}
-.carousel-images{
-    height:auto;
-    width: 100%;
-    object-fit: fill;
-    background-repeat: no-repeat;
-    opacity: 50%;
-}
-.homeImage-style{
-    height: 550px;
-    max-width: 630px;
-    object-fit: cover;
-    background-repeat: repeat;
-}
-.homeText-content-col{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.homeImage-content-col2{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-repeat: no-repeat
 }
 
-.text-container{
+.home-text-container {
+    height: 100vh;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.animate__backInDown {
-    width: 100%;
+.company-name-content{
+    font-size: 3.8vw;
+    color: #ffff;
+}
+.companyName-style{
+    color: #ffe600;
+}
+.announcement-content{
+    font-size: 1.2vw;
+    color: #ffff;
+    text-align: center;
+}
+.button-container {
+    display: grid;
+    place-items: center;
+  }
+  .contact-button {
+    padding: 9px 55px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffe600;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin: 0rem 2rem 0rem 0rem;
+  }
+  .watch-more-button {
+    padding: 9px 55px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffe600;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin: 0rem 0rem 0rem 2rem;
+  }
+
+
+.png-image-container {
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.png-image {
     max-width: 100%;
-    color:#ffff;
-    font-weight: bold;
-    animation-duration: 2s;
-    font-size: clamp(0.6rem, 1rem + 5vw, 5rem);
-    font-family: sans-serif;
-    text-shadow: 2px 2px 2px #000000;
-}
-
-.animate__backInLeft {
-    width: auto;
-    color:#ffff;
-    text-shadow: 1px 1px 1px #000000;
-    font-weight: bold;
-    animation-duration: 2s;
-    font-size: clamp(0.6rem, 1rem + 4vw, 18px);
-    font-family: sans-serif;
-}
-
- .btn-outline-dark{
-    height: 6vh;
-    min-width: 20%;
-    margin-left: 10px;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    outline: none;
-    background: transparent;
-    color:#000000;
-    background-color: #ffff;
-    font-weight: 700;
-    padding: 0 2px;
-    font-size: clamp(0.6rem, 1rem + 5vw, 1.3rem);
-    transition: 0.1s linear;
+    height: auto;
+    align-items: center;
 }
 
 
- .btn-outline-dark:hover{
-    border: 1px solid #f07705;
-    box-shadow: 2px  2px #f07705;
-    color: #f07705;
-    background-color: #000000;
-}
-
-@media only screen and (max-width:320px){
+@media only screen and (max-width:320px) {
     .home-container {
         padding: 0%;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
     }
-    .carousel-indicators {
-        margin-bottom: 0rem;
+    .png-image-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
-    .carousel-caption{
-        padding-bottom: 0rem;
+    .home-text-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+         padding: 0rem 1rem 1rem 1rem;
     }
-    .animate__backInDown{
-        font-size: clamp(0.6rem, 1rem + 5vw, 1.5rem);
+    .company-name-content{
+        font-size: 6.8vw;
+        color: #ffff;
     }
-    .animate__backInLeft{
-        font-size: clamp(0.6rem, 1rem + 4vw, 8px);
+    .announcement-content{
+        font-size: 3.5vw;
+        color: #ffff;
+        text-align: center;
     }
+   
+    .contact-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+       margin: 5% 0% 0% 0%;
+      }
+      .watch-more-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 0% 0% 5% 0% ;
+      }
+    
 }
-
-@media  screen and (min-width:320px) and (max-width:425px){
+@media only screen and (min-width:320px) and (max-width:376px) {
     .home-container {
         padding: 0%;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
     }
-    .carousel-indicators {
-        margin-bottom: 0rem;
+    .png-image-container {
+        height: 80vh;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
-    .carousel-caption{
-        padding-bottom: 0rem;
+    .home-text-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 0rem 1rem 1rem 1rem;
     }
-    .animate__backInDown{
-        font-size: clamp(0.6rem, 1rem + 5vw, 1.5rem);
+    .company-name-content{
+        font-size: 6.5vw;
+        color: #ffff;
     }
-    .animate__backInLeft{
-        font-size: clamp(0.6rem, 1rem + 4vw, 8px);
+    .announcement-content{
+        font-size: 3.5vw;
+        color: #ffff;
+        text-align: center;
     }
-    .btn-outline-dark{
-       height: 2rem;
-       padding: 0px 20px 0px 20px;
-       border: none;
-       background-color: #000000;
-       border-radius: 40px 0px;
-       color: #ffff;
-       box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+   
+    
+    .contact-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+      }
+      .watch-more-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 0% 0% 5% 0%;
+      }
 
-    }
 }
-@media  screen and (min-width:425px) and (max-width:500px){
+@media only screen and (min-width:377px) and (max-width:426px) {
     .home-container {
         padding: 0%;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
     }
-    .carousel-indicators {
-        margin-bottom: 0.2rem;
+    .png-image-container {
+        height: 80vh;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
-    .carousel-caption{
-        padding-bottom: 0.3rem;
+    .home-text-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+         padding: 0rem 1rem 1rem 1rem;
     }
-    .btn-outline-dark{
-        height: 2rem;
-     }
-    .animate__backInDown{
-        font-size: clamp(0.6rem, 1rem + 5vw, 2.5rem);
+    .company-name-content{
+        font-size: 6.5vw;
+        color: #ffff;
     }
-    .animate__backInLeft{
-        font-size: clamp(0.6rem, 1rem + 4vw, 12px);
+    .announcement-content{
+        font-size: 3.5vw;
+        color: #ffff;
+        text-align: center;
     }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+    .contact-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius:45px 0px;
+        cursor: pointer;
+        margin: 1rem;
+      }
+      .watch-more-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin:1rem ;
+      }
 }
+@media only screen and (min-width:426px) and (max-width:620px) {
+    .home-container {
+        padding: 0%;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .png-image-container {
+        height: 50vh;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+   
+    .home-text-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    .company-name-content{
+        font-size: 6.5vw;
+        color: #ffff;
+    }
+    .announcement-content{
+        font-size: 3.5vw;
+        color: #ffff;
+        text-align: center;
+    }
+    .contact-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+      }
+      .watch-more-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 0% 0% 10% 0%;
+      }
+}
+ @media only screen and (min-width:620px) and (max-width:720px) {
+    .home-container {
+        padding: 0%;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .png-image-container {
+        height: 70vh;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+   
+    .home-text-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+         padding: 0rem 1rem 1rem 1rem;
+    }
+    .company-name-content{
+        font-size: 6.5vw;
+        color: #ffff;
+    }
+    .announcement-content{
+        font-size: 3.5vw;
+        color: #ffff;
+        text-align: center;
+    }
+    .contact-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #00ff11;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+      }
+      .watch-more-button {
+        height: 3.5rem;
+        width: 16.5rem;
+        font-weight: bold;
+        background-color: #2bff00;
+        color: #000000;
+        border: none;
+        border-radius: 45px 0px;
+        cursor: pointer;
+        margin: 0% 0% 10% 0%;
+      }
+} 
