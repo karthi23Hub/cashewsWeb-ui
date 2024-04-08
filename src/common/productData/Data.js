@@ -97,6 +97,7 @@ const ProductData = [
     },
     {
         id: 12,
+        category:"SW", 
         title: "SWS",
         price: 700,
         desc: "Scroched Wholes Seconds",
@@ -150,6 +151,7 @@ const ProductData = [
     },
     {
         id: 19,
+        category:"scroched",
         title: "SB",
         price: 700,
         desc: "Scroched Butts",
@@ -157,6 +159,7 @@ const ProductData = [
     },
     {
         id: 20,
+        category:"scroched",
         title: "SS",
         price: 700,
         desc: "Scroche Splits",
@@ -164,6 +167,7 @@ const ProductData = [
     },
     {
         id: 21,
+        category:"scroched",
         title: "SP",
         price: 700,
         desc: "Scroched Pieces",
@@ -171,6 +175,7 @@ const ProductData = [
     },
     {
         id: 22,
+        category:"scroched",
         title: "SSP",
         price: 700,
         desc: "Scroched Small  Pieces",
@@ -178,6 +183,7 @@ const ProductData = [
     },
     {
         id: 23,
+        category:"scroched",
         title: "SPS",
         price: 700,
         desc: "Scroched Pieces Seconds",
