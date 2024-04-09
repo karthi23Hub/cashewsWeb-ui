@@ -6,15 +6,10 @@ import ProductDetailsPopUp from "./ProductDetailsPopUp";
 import PopUpModal from "../common/popUpModal/PopUpMadal";
 import { useState } from "react";
 import gradeData1 from './GradeData';
-// import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
-// import MenuItem from "@mui/material/MenuItem";
+ import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
+ import MenuItem from "@mui/material/MenuItem";
 import { styled, alpha } from "@mui/material/styles";
 import Menu from "@mui/material/Menu";
-
-
-
-
-
 
 
 
@@ -116,7 +111,7 @@ const CashewProduct = () => {
 
     const cardItem = (item) => {
         return (
-            <div class="card col-3"  key={item.id} id="card-style"
+            <div class="card col-3" key={item.id}
                 data-aos="zoom-in"
                 data-aos-delay="50"
                 data-aos-offset="200"
@@ -127,9 +122,10 @@ const CashewProduct = () => {
                     <h3 class="card-title">{item.title}</h3>
                     {/* <p id="descTextStyle">Description:{item.desc}</p> */}
                     {/* <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p> */}
-                     <Button className="animate__zoomIn" id="buttonStyle"
-                        style={{ animationDuration: "2s" }}
-                        key={item.id} onClick={() => onClickOpen(item)} >View Details</Button>
+                    <Button id="buttonStyle"
+                        key={item.id} onClick={() => onClickOpen(item)} >
+                        View Details
+                    </Button>
                 </div>
             </div>
         );
@@ -148,21 +144,20 @@ const CashewProduct = () => {
     return (
         <div id="product">
             <div className="container py-3" style={{ margin: 1 }}>
-                <div className="row" id="productPage-row">
+                <div className="row" id="productPage-row" style={{ display: "flex", flexWrap: "wrap" }}>
                     <div className="col-12 text-center">
                         <div className="product-title-content">
                             <div>
                                 <h2 className="product-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">Our Product</h2>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="filter-button-container">
                                 <button className="filter-button" onClick={onClickFilterAll}>All</button>
                                 <button className="filter-button" onClick={onClickFilterWW}>White Wholes</button>
                                 <button className="filter-button" onClick={onClickFilterSW}> Scroched Wholes </button>
                                 <button className="filter-button" onClick={onClickFilterScorched}>Scroched Peces</button>
                                 {/* <button className="filter-button"onClick={onClickFilter}>Other</button> */}
                             </div>
-                        </div>
-                        {/* <div>
+                            <div className="filter-dropdown-container">
                             <Button
                                 id="demo-customized-button"
                                 aria-controls={open ? 'demo-customized-menu' : undefined}
@@ -197,13 +192,14 @@ const CashewProduct = () => {
                                     More
                                 </MenuItem>
                             </StyledMenu>
-                        </div> */}
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="container " id="card-container" >
-                <div className="row">
-                        {filterData.map(cardItem)}
+                <div className="row" style={{ display: "flex", flexWrap: "wrap" }}>
+                    {filterData.map(cardItem)}
                 </div>
             </div>
             <div>

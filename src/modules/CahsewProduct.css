@@ -13,7 +13,12 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
-
+.filter-button-container{
+    display: none;
+}
+.filter-dropdown-container{
+   display: flex;
+}
 .filter-button{
     position: relative;
     font-size: 16px;
@@ -41,10 +46,6 @@
     transition: 0.3s;
 }
 
-
-
-
-
 #product {
     color: #000000;
    display: flex;
@@ -62,13 +63,16 @@
     margin: 0rem 0rem 0.7rem 0rem;
     font-weight: bold;
 }
-
-#buttonStyle {
+.col-3 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+#buttonStyle{
     height: 2.5rem;
-    width: 15.7rem;
+    width: 9rem;
     color: #000000;
     font-weight: bold;
-    background-color: darkorange;
+    background-color: #FF8C00;
     border-radius: 0px;
     box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
 }
@@ -80,13 +84,14 @@
 .row{
     flex-wrap: wrap;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#card-style{
-    width: 17rem;
+.card{
     border-radius: 0%;
 }
 @media screen and (max-width:320px) {
-    #card-style{
+    .card{
        width: 13rem;
        margin: 1rem 0rem 1rem 0rem ;
      }
@@ -95,7 +100,7 @@
         align-items: center;
         justify-content: center;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 2.5rem;
         width: 9rem;
         color: #000000;
@@ -104,18 +109,28 @@
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
+    .filter-button-container{
+        display: none;
+    }
+    .filter-dropdown-container{
+        display: flex;
+     }
 }
-@media screen and (min-width:321px) and (max-width:376px) {
-    #card-style{
+@media screen and (min-width:321px) and (max-width:375px) {
+    .card{
        width: 16rem;
        margin: 1rem 0rem 1rem 0rem ;
+     }
+     .col-3{
+        width: 50%;
      }
      .row{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 2.5rem;
         width: 13rem;
         color: #000000;
@@ -127,18 +142,25 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .filter-button-container{
+        display: none !important;
+    }
+    .filter-dropdown-container{
+        display: flex;
+     }
 }
-@media screen and (min-width:377px) and (max-width:424px) {
-    #card-style{
+@media screen and (min-width:376px) and (max-width:425px) {
+    .card{
        width: 18rem;
        margin: 1rem 0rem 1rem 0rem ;
      }
      .row{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 3rem;
         width: 15rem;
         color: #000000;
@@ -147,20 +169,29 @@
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
+    .filter-button-container{
+        display: none; 
+    }
+    .filter-dropdown-container{
+        display: flex;
+     }
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    
 }
- @media screen and (min-width:425px) and (max-width:500px) {
-    #card-style{
+ @media screen and (min-width:426px) and (max-width:500px) {
+    .card{
        width: 12rem;
        margin: 1rem 0.6rem 1rem 0.6rem ;
      }
      .row{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 2.5rem;
         width: 10rem;
         color: #000000;
@@ -172,9 +203,15 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .filter-button-container{
+        display: flex;
+    }
+    .filter-dropdown-container{
+        display: none;
+     }
 } 
  @media screen and (min-width:501px) and (max-width:768px) {
-    #card-style{
+    .card{
        width: 13rem;
        margin: 1rem 1rem 1rem 1rem ;
      }
@@ -182,9 +219,9 @@
         display: flex;
         flex-wrap: wrap;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 3rem;
-        width: 12rem;
+        width: 11rem;
         color: #000000;
         font-weight: bold;
         background-color: darkorange;
@@ -194,9 +231,15 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .filter-button-container{
+        display: flex;
+    }
+    .filter-dropdown-container{
+        display: none;
+     }
 } 
  @media screen and (min-width:769px) and (max-width:1024px) {
-    #card-style{
+    .card{
        width: 13rem;
        margin: 1rem 1rem 1rem 1rem ;
      }
@@ -204,8 +247,36 @@
         display: flex;
         flex-wrap: wrap;
      }
-     #buttonStyle {
-        height: 3rem;
+     #buttonStyle{
+        height: 2.5rem;
+        width: 10rem;
+        color: #000000;
+        font-weight: bold;
+        background-color: darkorange;
+        border-radius: 0px;
+        box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+    }
+    .card-body{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    .filter-button-container{
+        display: flex;
+    }
+    .filter-dropdown-container{
+        display: none;
+     }
+} 
+ @media screen and (min-width:1025px) and (max-width:1440px) {
+    .card{
+       width: 18.5rem;
+       margin: 1rem 1rem 1rem 1rem ;
+     }
+     .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     #buttonStyle{
+        height: 2.5rem;
         width: 12rem;
         color: #000000;
         font-weight: bold;
@@ -216,19 +287,25 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .filter-button-container{
+        display: flex;
+    }
+    .filter-dropdown-container{
+        display: none;
+     }
 } 
- @media screen and (min-width:1024px) {
-    #card-style{
-       width: 17rem;
-       margin: 1rem 1.8rem 1rem 1.8rem ;
+ @media screen and (min-width:1441px) and (max-width:2560px) {
+    .card{
+       width: 16.6rem;
+       margin: 1rem 2rem 1rem 2rem ;
      }
      .row{
         display: flex;
         flex-wrap: wrap;
      }
-     #buttonStyle {
+     #buttonStyle{
         height: 2.5rem;
-        width: 15rem;
+        width: 12rem;
         color: #000000;
         font-weight: bold;
         background-color: darkorange;
@@ -238,6 +315,12 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .filter-button-container{
+        display: flex;
+    }
+    .filter-dropdown-container{
+        display: none;
+     }
 } 
 
 
