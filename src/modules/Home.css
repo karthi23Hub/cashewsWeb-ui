@@ -59,7 +59,7 @@
     height: 100vh;
     width: 40%;
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -135,7 +135,7 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:column-reverse;
+       flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
@@ -143,7 +143,7 @@
         height: 50vh;
         width: 80%;
         display: flex;
-        flex-direction: row;
+       flex-direction: row;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
@@ -152,7 +152,7 @@
         height: 50vh;
         width: 100%;
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         align-items: center;
         justify-content: start;
         padding: 0rem 1rem 1rem 1rem;
@@ -194,7 +194,7 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:column-reverse;
+       flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
@@ -202,7 +202,7 @@
         height: 50vh;
         width: 80%;
         display: flex;
-        flex-direction: row;
+       flex-direction: row;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
@@ -211,7 +211,7 @@
         height: 50vh;
         width: 100%;
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         align-items: center;
         justify-content: start;
          padding: 0rem 1rem 1rem 1rem;
@@ -228,7 +228,7 @@
     }
     .button-container {
       display: flex;
-      flex-direction: column;
+     flex-direction: column;
       align-items: center;
       justify-content: center;
       }
@@ -258,7 +258,7 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:column-reverse;
+       flex-direction: row;
         align-items: center;
         justify-content: center;
     }
@@ -266,7 +266,7 @@
         height: 50vh;
         width: 60%;
         display: flex;
-        flex-direction: row;
+       flex-direction: row;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
@@ -276,7 +276,7 @@
         height: 50vh;
         width: 100%;
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         align-items: center;
         justify-content: start;
         padding: 0rem 1rem 1rem 1rem;
@@ -316,7 +316,7 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
@@ -324,7 +324,7 @@
         height: 50vh;
         width: 45%;
         display: flex;
-        flex-direction: row;
+       flex-direction: column;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
@@ -374,7 +374,7 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
@@ -382,7 +382,7 @@
         height: 100vh;
         width: 65%;
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         align-items: center;
         justify-content: center;
     }
