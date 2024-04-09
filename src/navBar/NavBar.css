@@ -47,8 +47,7 @@
     justify-content: center;
     list-style-type: none;
     margin-right: 5rem;
-    color:#fff;
-    
+    color:#fff;   
 }
 
 ul {
@@ -85,8 +84,6 @@ ul {
     color: aliceblue;
 }
 
-
-
  @media screen and (max-width:1024px) { 
     .nav-bar-container{
         height: 8vh;
@@ -114,7 +111,6 @@ ul {
         margin: 1rem;
         
     }
-    
     .nav-links-active{
         display: flex;
         width: 100%;
@@ -160,6 +156,5 @@ ul {
     }
     .nav-link{
         display: flex;
-    }
-   
+    }   
 } 
