@@ -17,7 +17,7 @@
     box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     position: sticky;
     top: 0px;
-    background-color: #000000;
+    background-color: #023b6d;
 }
 
 .logo-container {
@@ -59,7 +59,6 @@ ul {
     width: 10rem;
     text-decoration: none;
     font-size: 1.3rem;
-    font-weight: bold;
     font-family: monospace;
     display: flex;
     align-items: center;
@@ -74,7 +73,6 @@ ul {
     width: 10rem;
     cursor: pointer;
     color: #ffe600;
-    background: #000000;
 }
 
 .menu-icon {
