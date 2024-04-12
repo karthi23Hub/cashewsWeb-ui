@@ -111,14 +111,14 @@ const CashewProduct = () => {
 
     const cardItem = (item) => {
         return (
-            <div class="card col-3" key={item.id}
+            <div class="card col-3" key={item.id} 
                 data-aos="zoom-in"
                 data-aos-delay="50"
                 data-aos-offset="200"
                 data-aos-duration="5000"
             >
                 {item.img}
-                <div class="card-body text-center">
+                <div class="card-body">
                     <h3 class="card-title">{item.title}</h3>
                     {/* <p id="descTextStyle">Description:{item.desc}</p> */}
                     {/* <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p> */}
