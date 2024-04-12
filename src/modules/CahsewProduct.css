@@ -1,4 +1,5 @@
 
+
 .product-title-content{
     height: 24vh;
     width: 100%;
@@ -72,7 +73,7 @@
     width: 9rem;
     color: #000000;
     font-weight: bold;
-    background-color: #FF8C00;
+    background-color: #023b6d;
     border-radius: 0px;
     box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
 }
@@ -82,14 +83,38 @@
     color: #ffff;
 }
 .row{
-    flex-wrap: wrap;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 .card{
+    width: 17rem;
     border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid #00000023;
+    padding: 0.5rem;
 }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 0rem 0.5rem 0rem;  
+}
+.card-title{
+    margin: 0.5rem;
+}
+.animate__zoomIn {
+    /* margin: 1rem 0px 0rem 0px; */
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
 @media screen and (max-width:320px) {
     .card{
        width: 13rem;
@@ -299,16 +324,16 @@
        width: 16.6rem;
        margin: 1rem 2rem 1rem 2rem ;
      }
-     .row{
+     /* .row{
         display: flex;
         flex-wrap: wrap;
-     }
+     } */
      #buttonStyle{
         height: 2.5rem;
         width: 12rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
