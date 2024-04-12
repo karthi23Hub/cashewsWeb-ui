@@ -1,9 +1,7 @@
 #footer-container{
     height: 27rem;
     width: 100%;
-    /* background-image: linear-gradient(to right, #20A4F3,
-    #182B3A); */
-    background-color: #000000;
+    background-color: #023b6d;
     display: flex;
     flex-direction: column;
     align-items: center;
