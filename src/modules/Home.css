@@ -3,9 +3,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background: url('../common/imag/CarouselImages/1347727.png');
-    background-position: center;
-    background-repeat: no-repeat
+   background-color: #FFF6E4;
+   /* background-color: rgba(229,222,203,255); */
 }
 
 .home-text-container {
@@ -15,10 +14,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #000000;
 }
 .company-name-content{
     font-size: 3.8vw;
-    color: #ffff;
+    color: #000000;
     font-weight: bold;
 }
 .companyName-style{
@@ -26,7 +26,7 @@
 }
 .announcement-content{
     font-size: 1.2vw;
-    color: #ffff;
+    color: #000000;
     text-align: center;
 }
 .button-container {
@@ -63,6 +63,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    padding-bottom: 2rem;
 }
 
 .png-image {
@@ -388,7 +389,7 @@
     }
     .announcement-content{
         font-size: 1.2vw;
-        color: #ffff;
+        color: #000000;
         text-align: center;
         padding: 0rem 6.5rem;
     }

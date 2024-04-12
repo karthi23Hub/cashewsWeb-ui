@@ -97,7 +97,8 @@ useEffect(()=>{
                 <h1 className="company-name-content" data-aos="fade-up"  data-aos-delay="100"  data-aos-duration="1500">
                     Karthikeyan <span className="companyName-style">Exports</span> Pvt Ltd.
                 </h1>
-                <p className="announcement-content" data-aos="fade-up"  data-aos-delay="90"  data-aos-duration="2000">We are providing all gread of cashew nut with best Quality and affordable price.
+                <p className="announcement-content" data-aos="fade-up"  data-aos-delay="90"  data-aos-duration="2000">
+                    We are providing all gread of cashew nut with best Quality and affordable price.
                     If you intrest to buy cilck bellow contact us button and more details watch more
                 </p> 
                 <div className="button-container" >
