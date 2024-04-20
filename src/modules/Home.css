@@ -3,8 +3,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-   background-color: #FFF6E4;
-   /* background-color: rgba(229,222,203,255); */
+    background-color: #FFF6E4;
 }
 
 .home-text-container {
@@ -16,50 +15,80 @@
     justify-content: center;
     color: #000000;
 }
-.company-name-content{
+
+.company-name-content {
     font-size: 3.8vw;
-    color: #000000;
+    color: #7a6960;
     font-weight: bold;
+    text-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
 }
-.companyName-style{
-    color: #ffe600;
+
+.companyName-style {
+    color: #daa520;
 }
-.announcement-content{
+
+.announcement-content {
     font-size: 1.2vw;
     color: #000000;
+    text-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     text-align: center;
 }
+
 .button-container {
     display: grid;
     place-items: center;
-  }
-  .contact-button {
-    padding: 9px 55px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #ffe600;
-    color: #000000;
-    border: none;
-    cursor: pointer;
-    margin: 0rem 2rem 0rem 0rem;
-  }
-  .watch-more-button {
-    padding: 9px 55px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #ffe600;
-    color: #000000;
-    border: none;
-    cursor: pointer;
-    margin: 0rem 0rem 0rem 2rem;
-  }
+}
 
+.contact-button {
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    text-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+    padding: 9px 55px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #ffff;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 0rem 0rem 0rem 2rem;
+    border-color: transparent;
+}
+.contact-button:hover{
+    background-position: right center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.watch-more-button {
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    text-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+    padding: 9px 55px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #ffff;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    margin: 0rem 0rem 0rem 2rem;
+    border-color: transparent;
+}
+
+.watch-more-button:hover {
+    background-position: right center;
+    color: #000000;
+    text-decoration: none;
+}
 
 .png-image-container {
     height: 100vh;
     width: 40%;
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -77,10 +106,11 @@
     .home-container {
         padding: 0%;
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
+
     .png-image-container {
         height: 100vh;
         width: 100%;
@@ -90,6 +120,7 @@
         justify-content: center;
         box-sizing: border-box;
     }
+
     .home-text-container {
         height: 100vh;
         width: 100%;
@@ -97,223 +128,42 @@
         flex-direction: column;
         align-items: center;
         justify-content: start;
-         padding: 0rem 1rem 1rem 1rem;
-    }
-    .company-name-content{
-        font-size: 6.5vw;
-        color: #ffff;
-    }
-    .announcement-content{
-        font-size: 3.5vw;
-        color: #ffff;
-        text-align: center;
-    }
-   
-    .contact-button {
-        height: 3rem;
-        width: 16.5rem;
-        font-size: 16px;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius: 45px 0px;
-        cursor: pointer;
-       margin: 0% 0% 5% 0%;
-      }
-      .watch-more-button {
-        height: 3rem;
-        width: 16.5rem;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius: 45px 0px;
-        cursor: pointer;
-        margin: 5% 0% 0% 0% ;
-      }
-    
-}
-@media only screen and (min-width:320px) and (max-width:376px) {
-    .home-container {
-        padding: 0%;
-        display: flex;
-       flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    .png-image-container {
-        height: 50vh;
-        width: 80%;
-        display: flex;
-       flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-    .home-text-container {
-        height: 50vh;
-        width: 100%;
-        display: flex;
-       flex-direction: column;
-        align-items: center;
-        justify-content: start;
         padding: 0rem 1rem 1rem 1rem;
     }
-    .company-name-content{
+
+    .company-name-content {
         font-size: 6.5vw;
-        color: #ffff;
     }
-    .announcement-content{
+
+    .announcement-content {
         font-size: 3.5vw;
-        color: #ffff;
+        color: #000000;
         text-align: center;
     }
-   
+
     .contact-button {
-        height: 3.5rem;
-        width: 16.5rem;
+        height: 44px;
+        padding: 0 75px;
         font-size: 16px;
         font-weight: bold;
-        color: #000000;
         border: none;
-        border-radius: 45px 0px;
         cursor: pointer;
         margin: 0% 0% 5% 0%;
-      }
-      .watch-more-button {
-        height: 3.5rem;
-        width: 16.5rem;
+    }
+
+    .watch-more-button {
+        height: 44px;
+        padding: 0 70px;
+        font-size: 16px;
         font-weight: bold;
-        color: #000000;
         border: none;
-        border-radius: 45px 0px;
         cursor: pointer;
         margin: 5% 0% 0% 0%;
-      }
+    }
 
 }
-@media only screen and (min-width:377px) and (max-width:426px) {
-    .home-container {
-        padding: 0%;
-        display: flex;
-       flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    .png-image-container {
-        height: 50vh;
-        width: 80%;
-        display: flex;
-       flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-    .home-text-container {
-        height: 50vh;
-        width: 100%;
-        display: flex;
-       flex-direction: column;
-        align-items: center;
-        justify-content: start;
-         padding: 0rem 1rem 1rem 1rem;
-    }
-    .company-name-content{
-        font-size: 6.5vw;
-        color: #ffff;
-        font-weight: bold;
-    }
-    .announcement-content{
-        font-size: 3.5vw;
-        color: #ffff;
-        text-align: center;
-    }
-    .button-container {
-      display: flex;
-     flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      }
-    .contact-button {
-        height: 3.5rem;
-        width: 16.5rem;
-        font-size: 16px;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius:45px 0px;
-        cursor: pointer;
-        margin: 0% 0% 5% 0%;
-      }
-      .watch-more-button {
-        height: 3.5rem;
-        width: 16.5rem;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius: 45px 0px;
-        cursor: pointer;
-        margin: 5% 0% 0% 0%;
-      }
-}
-@media only screen and (min-width:426px) and (max-width:620px) {
-    .home-container {
-        padding: 0%;
-        display: flex;
-       flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    .png-image-container {
-        height: 50vh;
-        width: 60%;
-        display: flex;
-       flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-   
-    .home-text-container {
-        height: 50vh;
-        width: 100%;
-        display: flex;
-       flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        padding: 0rem 1rem 1rem 1rem;
-    }
-    .company-name-content{
-        font-size: 6.5vw;
-        color: #ffff;
-    }
-    .announcement-content{
-        font-size: 3.5vw;
-        color: #ffff;
-        text-align: center;
-    }
-    .contact-button {
-        height: 3.5rem;
-        width: 16.5rem;
-        font-size: 16px;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius: 45px 0px;
-        cursor: pointer;
-        margin: 0% 0% 5% 0%;
-      }
-      .watch-more-button {
-        height: 3.5rem;
-        width: 16.5rem;
-        font-weight: bold;
-        color: #000000;
-        border: none;
-        border-radius: 45px 0px;
-        cursor: pointer;
-        margin: 5% 0% 0% 0% ;
-      }
-}
- @media only screen and (min-width:621px) and (max-width:768px) {
+
+@media only screen and (min-width:320px) and (max-width:376px) {
     .home-container {
         padding: 0%;
         display: flex;
@@ -321,16 +171,17 @@
         align-items: center;
         justify-content: center;
     }
+
     .png-image-container {
         height: 50vh;
-        width: 45%;
+        width: 80%;
         display: flex;
-       flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
     }
-   
+
     .home-text-container {
         height: 50vh;
         width: 100%;
@@ -338,40 +189,226 @@
         flex-direction: column;
         align-items: center;
         justify-content: start;
-         padding: 0rem 1rem 1rem 1rem;
+        padding: 0rem 1rem 1rem 1rem;
     }
-    .company-name-content{
+
+    .company-name-content {
         font-size: 6.5vw;
-        color: #ffff;
     }
-    .announcement-content{
-        font-size: 3vw;
-        color: #ffff;
+
+    .announcement-content {
+        font-size: 3.5vw;
         text-align: center;
     }
+
     .contact-button {
-        height: 3rem;
-        width: 16.5rem;
+        height: 44px;
+        padding: 0 75px;
         font-size: 16px;
         font-weight: bold;
-        color: #000000;
         border: none;
-        border-radius: 45px 0px;
         cursor: pointer;
         margin: 0% 0% 5% 0%;
-      }
-      .watch-more-button {
-        height: 3rem;
-        width: 16.5rem;
+    }
+
+    .watch-more-button {
+        height: 44px;
+        padding: 0 70px;
+        font-size: 16px;
         font-weight: bold;
-        color: #000000;
         border: none;
-        border-radius: 45px 0px;
         cursor: pointer;
         margin: 5% 0% 0% 0%;
-      }
+    }
+}
+
+@media only screen and (min-width:377px) and (max-width:426px) {
+    .home-container {
+        padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .png-image-container {
+        height: 50vh;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .home-text-container {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .company-name-content {
+        font-size: 6.5vw;
+        font-weight: bold;
+    }
+
+    .announcement-content {
+        font-size: 3.5vw;
+
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-button {
+        height: 44px;
+        padding: 0 75px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 0% 0% 5% 0%;
+    }
+
+    .watch-more-button {
+        height: 44px;
+        padding: 0 70px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+    }
 } 
- @media only screen and (min-width:769px) {
+
+@media only screen and (min-width:426px) and (max-width:620px) {
+    .home-container {
+        padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .png-image-container {
+        height: 50vh;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .home-text-container {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .company-name-content {
+        font-size: 6.5vw;
+    }
+
+    .announcement-content {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .contact-button {
+        height: 44px;
+        padding: 0 75px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 0% 0% 5% 0%;
+    }
+
+    .watch-more-button {
+        height: 44px;
+        padding: 0 70px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+    }
+}
+
+@media only screen and (min-width:621px) and (max-width:800px) {
+    .home-container {
+        padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .png-image-container {
+        height: 50vh;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .home-text-container {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .company-name-content {
+        font-size: 6.5vw;
+    }
+
+    .announcement-content {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .contact-button {
+        height: 44px;
+        padding: 0 75px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 0% 0% 5% 0%;
+    }
+
+    .watch-more-button {
+        height: 44px;
+        padding: 0 70px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 5% 0% 0% 0%;
+    }
+}
+
+@media only screen and (min-width:801px) {
     .home-container {
         padding: 0%;
         display: flex;
@@ -379,22 +416,28 @@
         align-items: center;
         justify-content: center;
     }
+
     .home-text-container {
         height: 100vh;
         width: 65%;
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .announcement-content{
+
+    .announcement-content {
         font-size: 1.2vw;
         color: #000000;
         text-align: center;
         padding: 0rem 6.5rem;
     }
+
     .button-container {
         display: flex;
         place-items: center;
-      }
-} 
+    }
+}
+
+
+
