@@ -2,10 +2,11 @@ import './App.css';
 import NavBar from './navBar/NavBar';
 import Home from './modules/Home';
 import CashewProduct from './modules/CashewProduct';
+import Blog from './modules/Blog';
 import About from './modules/About';
 import Contact from './modules/Contact';
 import Footer from './footer/Footer';
-import CashewBlog from './modules/CashewBlog';
+
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <NavBar/>
       <Home/>
       <CashewProduct/>
-      <CashewBlog/>
+      <Blog/>
       <About/>
       <Contact/>
       <Footer/>
