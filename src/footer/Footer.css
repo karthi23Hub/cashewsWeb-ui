@@ -22,9 +22,9 @@
     font-size: 2rem;
     font-weight: bold;
     color: cornsilk;
-
 }
 .row2-col{
     color: cornsilk;
     margin-top: 2.5rem;
+    cursor: pointer;
 }
