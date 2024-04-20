@@ -1,4 +1,8 @@
-
-
+.about-title-content{
+    font-size: 3vw;
+    font-weight: bold;
+    color:#FF8C00;
+    text-shadow:-1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
+}
 
 
