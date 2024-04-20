@@ -29,7 +29,7 @@ const ProductData = [
         title: "WW-320",
         price: 700,
         desc: "White Wholes",
-        img: <img src={require('../imag/cashewNut/raw-cashew-nuts-w320-500x500.webp')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
+        img: <img src={require('../imag/cashew Nut pic/istockphoto-1499155037-2048x2048.jpg')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
     },
     {
         id: 4,
