@@ -4,8 +4,6 @@ import './About.css';
 
 const About = () => {
 
-
-
     return (
         <div id="about-us">
             <div class="container text-center">
@@ -17,7 +15,7 @@ const About = () => {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6">
                         <div class="col ">
                             <div class="py-2 ">
                                 <h2>About Karthi Export</h2>
@@ -30,7 +28,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <div class="col">
                             <img src={require('../common/imag/New folder/smiling-businessmen.webp')} alt="Contact Us" class="contactPage-image" />
                         </div>
