@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cashewsWeb-ui/static/css/main.d9c9561e.css",
-    "main.js": "/cashewsWeb-ui/static/js/main.5f5809ff.js",
+    "main.css": "/cashewsWeb-ui/static/css/main.b72cc5e0.css",
+    "main.js": "/cashewsWeb-ui/static/js/main.740bac95.js",
     "static/js/787.c7636217.chunk.js": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js",
     "static/media/banner2.png": "/cashewsWeb-ui/static/media/banner2.f3a0443d9e56d8b45265.png",
     "static/media/cashewpiriyani.jpg": "/cashewsWeb-ui/static/media/cashewpiriyani.b9f2ecd7291792c62d26.jpg",
@@ -27,12 +27,12 @@
     "static/media/revicons.ttf": "/cashewsWeb-ui/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/cashewsWeb-ui/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cashewsWeb-ui/index.html",
-    "main.d9c9561e.css.map": "/cashewsWeb-ui/static/css/main.d9c9561e.css.map",
-    "main.5f5809ff.js.map": "/cashewsWeb-ui/static/js/main.5f5809ff.js.map",
+    "main.b72cc5e0.css.map": "/cashewsWeb-ui/static/css/main.b72cc5e0.css.map",
+    "main.740bac95.js.map": "/cashewsWeb-ui/static/js/main.740bac95.js.map",
     "787.c7636217.chunk.js.map": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c9561e.css",
-    "static/js/main.5f5809ff.js"
+    "static/css/main.b72cc5e0.css",
+    "static/js/main.740bac95.js"
   ]
 }
