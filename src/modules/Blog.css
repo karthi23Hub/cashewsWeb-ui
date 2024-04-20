@@ -1,0 +1,33 @@
+.blog {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.blog-image-container{
+    height: 35vh;
+    width: 100%;
+    margin: 2rem 0rem 1rem 0rem;
+    background-image: url('../common/imag/CarouselImages/cashewnut.avif');
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.blog-text-container{
+    margin: 2rem 2rem 2rem 2rem;
+}
+.blog-images{
+    width: 100%;
+    height: 35vh;
+}
+
+.card-container{
+    width: 300px;
+}
+.card-slider-title{
+    padding-left: 2rem;
+}
+.card-slider-title p{
+    margin-bottom: 0%;
+}
