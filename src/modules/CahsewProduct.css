@@ -3,7 +3,8 @@
 .product-title-content{
     height: 24vh;
     width: 100%;
-   color: #FF8C00;
+    color:#FF8C00;
+    text-shadow:-1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +74,7 @@
     width: 9rem;
     color: #000000;
     font-weight: bold;
-    background-color: #023b6d;
+    background-color: #ff8c00;
     border-radius: 0px;
     box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
 }
@@ -109,7 +110,6 @@
     margin: 0.5rem;
 }
 .animate__zoomIn {
-    /* margin: 1rem 0px 0rem 0px; */
     height: auto;
     max-width: 100%;
     text-align: center;
@@ -117,7 +117,7 @@
 
 @media screen and (max-width:320px) {
     .card{
-       width: 13rem;
+       width: 17rem;
        margin: 1rem 0rem 1rem 0rem ;
      }
      .row{
@@ -130,7 +130,7 @@
         width: 9rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -140,27 +140,37 @@
     .filter-dropdown-container{
         display: flex;
      }
+     .product-title{
+        font-size: 10vw;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (min-width:321px) and (max-width:375px) {
     .card{
-       width: 16rem;
-       margin: 1rem 0rem 1rem 0rem ;
-     }
-     .col-3{
+        width: 17rem;
+        margin: 1rem 0rem 1rem 0rem ;
+      }
+      .row{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+     /* .col-3{
         width: 50%;
-     }
-     .row{
+     } */
+     /* .row{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-     }
+     } */
      #buttonStyle{
         height: 2.5rem;
-        width: 13rem;
+        width: 15rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -173,10 +183,16 @@
     .filter-dropdown-container{
         display: flex;
      }
+     .product-title{
+        font-size: 10vw;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
 }
-@media screen and (min-width:376px) and (max-width:425px) {
+@media screen and (min-width:375px) and (max-width:425px) {
+    
     .card{
-       width: 18rem;
+       width: 17rem;
        margin: 1rem 0rem 1rem 0rem ;
      }
      .row{
@@ -187,10 +203,10 @@
      }
      #buttonStyle{
         height: 3rem;
-        width: 15rem;
+        width: 13rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -203,9 +219,14 @@
     .card-body{
         padding: 1rem 0rem 1rem 0rem;
     }
+    .product-title{
+        font-size: 10vw;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
     
 }
- @media screen and (min-width:426px) and (max-width:500px) {
+ @media screen and (min-width:425px) and (max-width:500px) {
     .card{
        width: 12rem;
        margin: 1rem 0.6rem 1rem 0.6rem ;
@@ -221,7 +242,7 @@
         width: 10rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -229,11 +250,16 @@
         padding: 1rem 0rem 1rem 0rem;
     }
     .filter-button-container{
-        display: flex;
+        display: none;
     }
     .filter-dropdown-container{
-        display: none;
+        display: flex;
      }
+     .product-title{
+        font-size: 10vw;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
 } 
  @media screen and (min-width:501px) and (max-width:768px) {
     .card{
@@ -249,7 +275,7 @@
         width: 11rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -262,6 +288,11 @@
     .filter-dropdown-container{
         display: none;
      }
+     .product-title{
+        font-size: 7.5vw;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
 } 
  @media screen and (min-width:769px) and (max-width:1024px) {
     .card{
@@ -277,7 +308,7 @@
         width: 10rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -293,7 +324,7 @@
 } 
  @media screen and (min-width:1025px) and (max-width:1440px) {
     .card{
-       width: 18.5rem;
+       width: 17.5rem;
        margin: 1rem 1rem 1rem 1rem ;
      }
      .row{
@@ -305,7 +336,7 @@
         width: 12rem;
         color: #000000;
         font-weight: bold;
-        background-color: darkorange;
+        background-color: #ff8c00;
         border-radius: 0px;
         box-shadow: -1px 2px 2.5px rgba(0, 0, 0, .15), 0 0 14px rgba(0, 0, 0, .02), 0 0 1px rgba(0, 0, 0, .1);
     }
@@ -324,10 +355,6 @@
        width: 16.6rem;
        margin: 1rem 2rem 1rem 2rem ;
      }
-     /* .row{
-        display: flex;
-        flex-wrap: wrap;
-     } */
      #buttonStyle{
         height: 2.5rem;
         width: 12rem;

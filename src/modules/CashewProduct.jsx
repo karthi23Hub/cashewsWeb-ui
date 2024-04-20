@@ -152,10 +152,9 @@ const CashewProduct = () => {
                             </div>
                             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="filter-button-container">
                                 <button className="filter-button" onClick={onClickFilterAll}>All</button>
-                                <button className="filter-button" onClick={onClickFilterWW}>White Wholes</button>
                                 <button className="filter-button" onClick={onClickFilterSW}> Scroched Wholes </button>
+                                <button className="filter-button" onClick={onClickFilterWW}>White Wholes</button>
                                 <button className="filter-button" onClick={onClickFilterScorched}>Scroched Peces</button>
-                                {/* <button className="filter-button"onClick={onClickFilter}>Other</button> */}
                             </div>
                             <div className="filter-dropdown-container">
                             <Button
