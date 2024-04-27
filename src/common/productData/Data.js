@@ -45,7 +45,7 @@ const ProductData = [
         title: "WW-500",
         price: 700,
         desc: "White Wholes",
-        img: <img src={require('../imag/cashewNut/ww450-jpeg-500x500.webp')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
+        img: <img src={require('../imag/cashewNut/sw450-cashew-nut-500x500.webp')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
     },
     {
         id: 6,
@@ -93,7 +93,7 @@ const ProductData = [
         title: "SW-500",
         price: 700,
         desc: "Scroched Wholes",
-        img: <img src={require('../imag/cashewNut/sw450-cashew-nut-500x500.webp')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
+        img: <img src={require('../imag/cashewNut/split-sw500-cashew-nut-500x500.webp')} className='animate__zoomIn' style={{animationDuration:"4s"}}/>
     },
     {
         id: 12,
