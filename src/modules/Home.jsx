@@ -3,6 +3,7 @@ import './Home.css';
 import Aos from "aos";
 import 'aos/dist/aos.cjs';
 import { useEffect } from "react";
+import {Link}  from "react-scroll";
 
 
 
@@ -16,15 +17,19 @@ useEffect(()=>{
         <div className="home-container" id="/">
             <div className="home-text-container">
                 <h1 className="company-name-content" >
-                    Karthikeyan <span className="companyName-style">Exports</span> Pvt Ltd.
+                    Stri Enterprises <span className="companyName-style">Exports</span> Pvt Ltd.
                 </h1>
                 <p className="announcement-content"  >
                     We are providing all gread of cashew nut with best Quality and affordable price.
                     If you intrest to buy cilck bellow contact us button and more details watch more
                 </p> 
                 <div className="button-container" >
-                   <button className="contact-button" >Contact Us</button>
-                   <button className="watch-more-button" >Watch More</button>
+                   <button className="contact-button" >
+                   <Link to='contact' spy={true} smooth={true} offset={-60} duration={500}>Contact Us</Link>
+                   </button>
+                   <button className="watch-more-button" >
+                   <a href="https://youtu.be/CXTZVKYYyig?si=ZKUDQZRy41khTap9">Watch More</a>
+                   </button>
                 </div>
             </div>
             <div className="png-image-container">

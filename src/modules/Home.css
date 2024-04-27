@@ -83,7 +83,14 @@
     color: #000000;
     text-decoration: none;
 }
-
+.watch-more-button a{
+    color: #fff;
+    text-decoration: none;
+}
+.watch-more-button:hover a{
+    color: #000000;
+    text-decoration: none;
+}
 .png-image-container {
     height: 100vh;
     width: 40%;
@@ -93,6 +100,7 @@
     justify-content: center;
     box-sizing: border-box;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 .png-image {
