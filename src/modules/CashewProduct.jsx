@@ -120,8 +120,8 @@ const CashewProduct = () => {
                 {item.img}
                 <div class="card-body">
                     <h3 class="card-title">{item.title}</h3>
-                    {/* <p id="descTextStyle">Description:{item.desc}</p> */}
-                    {/* <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p> */}
+                    <p id="descTextStyle">Description:{item.desc}</p> 
+                     {/* <p id="priceTextStyle">Average_Price: ₹ {item.price} /Kg</p> */}
                     <Button id="buttonStyle"
                         key={item.id} onClick={() => onClickOpen(item)} >
                         View Details
