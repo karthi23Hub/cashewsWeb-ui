@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 
 
 
+
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -58,7 +59,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +69,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +79,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +89,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +99,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +109,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +119,7 @@ const Blog = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <button  class="btn btn-primary">Read More</button>
                                     </div>
                                 </div>
                             </div>
