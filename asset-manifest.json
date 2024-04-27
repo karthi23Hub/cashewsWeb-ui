@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cashewsWeb-ui/static/css/main.b72cc5e0.css",
-    "main.js": "/cashewsWeb-ui/static/js/main.740bac95.js",
+    "main.css": "/cashewsWeb-ui/static/css/main.cbf0fca7.css",
+    "main.js": "/cashewsWeb-ui/static/js/main.f26c2104.js",
     "static/js/787.c7636217.chunk.js": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js",
     "static/media/banner2.png": "/cashewsWeb-ui/static/media/banner2.f3a0443d9e56d8b45265.png",
     "static/media/cashewpiriyani.jpg": "/cashewsWeb-ui/static/media/cashewpiriyani.b9f2ecd7291792c62d26.jpg",
@@ -15,6 +15,7 @@
     "static/media/cashew-wite-rise.jpg": "/cashewsWeb-ui/static/media/cashew-wite-rise.dce2bf9c0afa1df4a99d.jpg",
     "static/media/cashewwithnonvege.jpg": "/cashewsWeb-ui/static/media/cashewwithnonvege.cd1d77787bce67bc1d22.jpg",
     "static/media/ww450-jpeg-500x500.webp": "/cashewsWeb-ui/static/media/ww450-jpeg-500x500.3178cba5d256520abff0.webp",
+    "static/media/split-sw500-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/split-sw500-cashew-nut-500x500.282edaf58ffb17fe6dbb.webp",
     "static/media/smiling-businessmen.webp": "/cashewsWeb-ui/static/media/smiling-businessmen.8046461876f216317ae8.webp",
     "static/media/w240-whole-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/w240-whole-cashew-nut-500x500.542d315ed3229d2f1552.webp",
     "static/media/w210-cashew-nut-500x500.webp": "/cashewsWeb-ui/static/media/w210-cashew-nut-500x500.a8d4f7c9e3e04d82543f.webp",
@@ -27,12 +28,12 @@
     "static/media/revicons.ttf": "/cashewsWeb-ui/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/cashewsWeb-ui/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cashewsWeb-ui/index.html",
-    "main.b72cc5e0.css.map": "/cashewsWeb-ui/static/css/main.b72cc5e0.css.map",
-    "main.740bac95.js.map": "/cashewsWeb-ui/static/js/main.740bac95.js.map",
+    "main.cbf0fca7.css.map": "/cashewsWeb-ui/static/css/main.cbf0fca7.css.map",
+    "main.f26c2104.js.map": "/cashewsWeb-ui/static/js/main.f26c2104.js.map",
     "787.c7636217.chunk.js.map": "/cashewsWeb-ui/static/js/787.c7636217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b72cc5e0.css",
-    "static/js/main.740bac95.js"
+    "static/css/main.cbf0fca7.css",
+    "static/js/main.f26c2104.js"
   ]
 }
